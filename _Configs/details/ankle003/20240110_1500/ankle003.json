@@ -1,0 +1,11 @@
+{
+    "IconPath": "images/icons/ankle/ankle0001_big_092523_1450.jpg",
+    "PhaseList": [
+        {
+            "Name": "BI MAL",
+            "Desc": "Bi Malleolus - 1",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "ControllerAssetName": "500_bimalleolus"
+        }
+    ]
+}

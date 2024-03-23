@@ -1,0 +1,43 @@
+{
+    "CardList": [
+        {
+            "Type": "BIG",
+ 	    "CPTCode": 27792,
+            "Tag": "BookMark",
+            "IconPath": "images/icons/ankle/ankle0001_big_092523_1450.jpg",
+            "Desc": "Ankle Surgery Big"
+        },
+        {
+            "Type": "SMALL",
+            "CPTCode": 27792,
+            "PhaseIndex": 0,
+            "IconPath": "images/icons/ankle0001.jpg",
+            "Desc": "Ankle Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "CPTCode": 25607,
+            "IconPath": "images/icons/arm0001.jpg",
+            "Desc": "Distal Radius"
+        },
+        {
+            "Type": "SMALL",
+            "CPTCode": 27766,
+            "IconPath": "images/icons/ankle0001.jpg",
+            "Desc": "Medial Malleolus"
+        },
+	{	
+            "Type": "SMALL",
+            "CPTCode": 27814,
+            "IconPath": "images/icons/ankle0001.jpg",
+            "Desc": "BI Malleolus"
+        },
+        {
+            "Type": "SMALL",
+            "CPTCode": 10505,
+            "IconPath": "images/icons/ankle0001.jpg",
+            "Desc": "TEST:TRI-Malleolus"
+        }
+    ]
+
+}

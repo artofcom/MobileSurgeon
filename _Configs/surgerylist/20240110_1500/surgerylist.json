@@ -1,0 +1,160 @@
+{
+    "CategoryList": [
+        {
+            "Id": 1,
+            "Name": "Basic Surgical Skills"
+        },
+        {
+            "Id": 2,
+            "Name": "Anesthesiology"
+        },
+        {
+            "Id": 3,
+            "Name": "Cardiology"
+        },
+        {
+            "Id": 4,
+            "Name": "Dentistry"
+        },
+        {
+            "Id": 5,
+            "Name": "General Surgery"
+        }
+    ],
+
+    "SurgeryList": [
+        {
+            "Id": "ankle0001",
+            "Category": 1,
+            "Name": "Ankle Surgery A",
+            "Desc": "Tough one 1 ",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg"
+        },
+        {
+            "Id": "ankle0002",
+            "Category": 1,
+            "Name": "Solo Medial Malleolus",
+            "Desc": "Solo Malleolus",
+            "PhaseCount": 1,
+            "DataName": "ankle002",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg"
+        },
+        {
+            "Id": "ankle0003",
+            "Category": 1,
+            "Name": "BI Malleolus",
+            "Desc": "Bi Malleolus",
+            "PhaseCount": 1,
+            "DataName": "ankle003",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg"
+        },
+        {
+            "Id": "foot0001",
+            "Category": 3,
+            "Name": "Foot Surgery Online",
+            "Desc": "Tough one 2",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/foot0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1450.jpg"
+        },
+        {
+            "Id": "arm0001",
+            "Category": 2,
+            "Name": "Distal Radius Surgery",
+            "Desc": "Tough one 3",
+            "PhaseCount": 2,
+            "DataName": "distalradius0001",
+            "IconPath": "images/icons/arm0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg"
+        },
+        {
+            "Id": "hand0001",
+            "Category": 1,
+            "Name": "Hand Surgery A",
+            "Desc": "Tough one 4",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/hand0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1451.jpg"
+        },
+        {
+            "Id": "face0001",
+            "Category": 4,
+            "Name": "Face Surgery A",
+            "Desc": "Tough one 5",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/head0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1453.jpg"
+        },
+        {
+            "Id": "eye0001",
+            "Category": 5,
+            "Name": "Eye Surgery A",
+            "Desc": "Tough one 6",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/eye0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg"
+        },
+        {
+            "Id": "ear0001",
+            "Category": 1,
+            "Name": "Ear Surgery A",
+            "Desc": "Tough one 7",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/ear0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1450.jpg"
+        },
+        {
+            "Id": "finger0001",
+            "Category": 3,
+            "Name": "Finger Surgery A",
+            "Desc": "Tough one 8",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/finger0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1451.jpg"
+        },
+        {
+            "Id": "toe0001",
+            "Category": 2,
+            "Name": "Toe Surgery A",
+            "Desc": "Tough one 9",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/toes0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg"
+        },
+        {
+            "Id": "knee0001",
+            "Category": 4,
+            "Name": "Knee Surgery A",
+            "Desc": "Tough one 10",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/knee0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1450.jpg"
+        },
+        {
+            "Id": "back0001",
+            "Category": 5,
+            "Name": "Back Surgery A",
+            "Desc": "Tough one 11",
+            "PhaseCount": 2,
+            "DataName": "ankle001",
+            "IconPath": "images/icons/back0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1451.jpg"
+        }
+    ]
+
+
+
+}

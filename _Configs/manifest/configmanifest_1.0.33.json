@@ -1,0 +1,28 @@
+{
+    "header": {
+        "date": "15:26 PM 11/01/2023",
+        "URLHead": "https://storage.googleapis.com/mobilesurgerytest0"
+    },
+    "configs": [
+        {
+            "name": "homeviewlist",
+            "path": "configs/homeviewlist/20231101_1600",
+            "hash": "20231101_1600"
+        },
+        {
+            "name": "surgerylist",
+            "path": "configs/surgerylist/20231101_1600",
+            "hash": "20231101_1600"
+        },
+        {
+            "name": "ankle001",
+            "path": "configs/details/ankle001/20231018_1020",
+            "hash": "20231018_1020"
+        },
+        {
+            "name": "distalradius0001",
+            "path": "configs/details/distalradius0001/20231101_1600",
+            "hash": "20231101_1600"
+        }
+    ]
+}

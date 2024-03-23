@@ -1,0 +1,11 @@
+{
+    "IconPath": "images/icons/ankle/ankle0001_big_092523_1451.jpg",
+    "PhaseList": [
+        {
+            "Name": "Intro-Phase1",
+            "Desc": "AAA needs to be BBB",
+            "IconPath": "images/icons/arm0001.jpg",
+            "AnimationBundleName": "004_DistalRadius"
+        }
+    ]
+}

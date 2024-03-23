@@ -1,0 +1,89 @@
+{
+    "CardList": [
+        {
+            "Type": "BIG",
+            "SurgId": "ankle0001",
+            "Tag": "BookMark",
+            "IconPath": "images/icons/ankle/ankle0001_big_092523_1450.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "ankle0001",
+            "PhaseIndex": 0,
+            "IconPath": "images/icons/ankle0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-WEB Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "arm0001",
+            "PhaseIndex": 1,
+            "IconPath": "images/icons/arm0001.jpg",
+            "DataName": "distalradius0001",
+            "Desc": "Distal Radius Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "ankle0002",
+            "PhaseIndex": 0,
+            "IconPath": "images/icons/ankle0001.jpg",
+            "DataName": "ankle002",
+            "Desc": "Medial Malleolus"
+        },
+	{	
+            "Type": "BIG",
+            "SurgId": "foot0001",
+            "Tag": "Continue Learning",
+            "IconPath": "images/icons/ankle/ankle0001_big_092523_1451.jpg",
+            "DataName": "ankle001",
+            "Desc": "Foot 001 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "ankle0003",
+            "PhaseIndex": 0,
+            "IconPath": "images/icons/ankle0001.jpg",
+            "DataName": "ankle003",
+            "Desc": "BI Malleolus"
+        },
+        
+        {
+            "Type": "SMALL",
+            "SurgId": "foot0001",
+            "PhaseIndex": 0,
+            "IconPath": "images/icons/foot0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-0 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "foot0001",
+            "PhaseIndex": 1,
+            "IconPath": "images/icons/hand0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-1 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "foot0001",
+            "PhaseIndex": 2,
+            "IconPath": "images/icons/eye0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-2 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "ankle0001",
+            "PhaseIndex": 2,
+            "IconPath": "images/icons/nose0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-2 Surgery"
+        }
+
+    ]
+
+
+
+}

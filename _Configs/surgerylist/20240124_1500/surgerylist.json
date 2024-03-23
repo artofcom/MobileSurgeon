@@ -1,0 +1,143 @@
+{
+    "CategoryList": [
+        {
+            "Id": "Upper Extremity",
+            "SubList": [
+                "Shoulder",
+                "Humerus",
+                "Elbow",
+                "Forearm",
+                "Wrist",
+                "Hand"
+            ]
+        },
+        {
+            "Id": "Pelvis",
+            "SubList": [
+                "Pelvis",
+                "Acetabulum"
+            ]
+        },
+        {
+            "Id": "Lower Extremity",
+            "SubList": [
+                "Hip",
+                "Femur",
+                "Knee",
+                "Tibia",
+                "Ankle",
+                "Foot"
+            ]
+        }
+    ],
+
+    "SurgeryList": [
+        {
+            "CPTCode": 27792,
+            "CategoryId": "Lower Extremity",
+            "SubCategoryId": "Ankle",
+            "RVU": 0.15,
+            "Name": "Ankle Surgery",
+            "Desc": "Ankle Sugery",
+            "ControllerAsset": "001_AnkleSurgery",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg",
+            "BundleDependencies": [
+                {
+                    "Name": "001_AnkleSurgery",
+                    "Prefab": "main"
+                }
+            ]
+
+        },
+        {
+            "CPTCode": 25607,
+            "CategoryId": "Upper Extremity",
+            "SubCategoryId": "Wrist",
+            "RVU": 0.25,
+            "Name": "Distal Radius",
+            "Desc": "Distal Radius",
+            "ControllerAsset": "004_DistalRadius",
+            "IconPath": "images/icons/arm0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg",
+            "BundleDependencies": [
+                {
+                    "Name": "004_DistalRadius",
+                    "Prefab": "main"
+                }
+            ]
+
+        },
+        {
+            "CPTCode": 27766,
+            "CategoryId": "Lower Extremity",
+            "SubCategoryId": "Ankle",
+            "RVU": 0.35,
+            "Name": "Lateral Malleolus",
+            "Desc": "Lateral Malleolus",
+            "ControllerAsset": "003_MedialMalleolus",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1451.jpg",
+            "BundleDependencies": [
+                {
+                    "Name": "003_medialmalleolus",
+                    "Prefab": "main"
+                }
+            ]
+        },
+	{
+            "CPTCode": 10500,
+            "CategoryId": "Lower Extremity",
+            "SubCategoryId": "Ankle",
+            "RVU": 0.99,
+            "Name": "BI Malleolus",
+            "Desc": "TEST BI-MAL",
+            "ControllerAsset": "500_BiMalleolus",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg",
+            "BundleDependencies": [
+                {
+                    "Name": "001_AnkleSurgery",
+                    "Prefab": "main_PreBiMal",
+                    "StartFrame": 0
+                },
+                {
+                    "Name": "003_MedialMalleolus",
+                    "Prefab": "main_PostBiMal",
+                    "StartFrame": 6001
+                }
+            ]
+
+        },
+        {
+
+            "CPTCode": 10505,
+            "CategoryId": "Lower Extremity",
+            "SubCategoryId": "Ankle",
+            "RVU": 0.99,
+            "Name": "TRI Malleolus",
+            "Desc": "TEST TRI-MAL",
+            "ControllerAsset": "510_TriMalleolus",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "BigIconPath": "images/icons/ankle/ankle0001_big_092523_1447.jpg",
+            "BundleDependencies": [
+                {
+                    "Name": "001_AnkleSurgery",
+                    "Prefab": "main_PreBiMal",
+                    "StartFrame": 0
+                },
+                {
+                    "Name": "003_MedialMalleolus",
+                    "Prefab": "main_PostBiMal",
+                    "StartFrame": 6001
+                },
+                {
+                    "Name": "004_DistalRadius",
+                    "Prefab": "main_temp",
+                    "StartFrame": 11000
+                }
+            ]
+        }
+    ]
+
+}

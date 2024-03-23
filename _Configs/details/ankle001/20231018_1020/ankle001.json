@@ -1,0 +1,17 @@
+{
+    "IconPath": "images/icons/ankle/ankle0001_big_092523_1450.jpg",
+    "PhaseList": [
+        {
+            "Name": "Intro-Phase1",
+            "Desc": "AAA needs to be BBB",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "AnimationBundleName": "001_anklesurgery"
+        },
+        {
+            "Name": "On going-Phase2",
+            "Desc": "BBB needs to be BBB",
+            "IconPath": "images/icons/foot0001.jpg",
+            "AnimationBundleName": "003_eyesurgery"
+        }
+    ]
+}

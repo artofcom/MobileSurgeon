@@ -1,0 +1,11 @@
+{
+    "IconPath": "images/icons/ankle/ankle0001_big_092523_1450.jpg",
+    "PhaseList": [
+        {
+            "Name": "Medial Malleolus",
+            "Desc": "Solo Medial Malleolus - 1",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "ControllerAssetName": "003_medialmalleolus"
+        }
+    ]
+}

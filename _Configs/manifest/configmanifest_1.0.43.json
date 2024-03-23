@@ -1,0 +1,18 @@
+{
+    "header": {
+        "date": "13:25 PM 02/26/2024",
+        "URLHead": "https://storage.googleapis.com/mobilesurgerytest0"
+    },
+    "configs": [
+        {
+            "name": "homeviewlist",
+            "path": "configs/homeviewlist/20240226_1100",
+            "hash": "20240226_1100"
+        },
+        {
+            "name": "surgerylist",
+            "path": "configs/surgerylist/20240308_1330",
+            "hash": "20240308_1330"
+        }
+    ]
+}

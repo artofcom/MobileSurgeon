@@ -1,0 +1,11 @@
+{
+    "IconPath": "images/icons/ankle/ankle0001_big_092523_1450.jpg",
+    "PhaseList": [
+        {
+            "Name": "Intro-Phase1",
+            "Desc": "AAA needs to be BBB",
+            "IconPath": "images/icons/ankle0001.jpg",
+            "ControllerAssetName": "001_anklesurgery"
+        }
+    ]
+}
