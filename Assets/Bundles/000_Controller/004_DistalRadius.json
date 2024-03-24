@@ -1,0 +1,295 @@
+{
+    "Version": "1.1",
+    "StartingDelayInSecond": 3.0,
+    "CPTCode": "CPT 25607",
+    "TitleMessage": "Open treatment of extra-articular distal radius fracture\n\n(CPT 25607)",
+    "GroupList": [
+        {
+            "Frame": 1,
+            "Name": "Positioning and setup"
+        },
+        {
+            "Frame": 395,
+            "Name": "Approach"
+        },
+        {
+            "Frame": 2653,
+            "Name": "Fracture Preparation"
+        },
+        {
+            "Frame": 3051,
+            "Name": "Fracture Reduction"
+        },
+        {
+            "Frame": 3751,
+            "Name": "Fracture Fixation"
+        },
+        {
+            "Frame": 6719,
+            "Name": "Final check"
+        },
+        {
+            "Frame": 6960,
+            "Name": "Closure"
+        }
+    ],
+    "SectionList": [
+        {
+            "Frame": 5
+        },
+        {
+            "Frame": 61
+        },
+        {
+            "Frame": 244
+        },
+        {
+            "Frame": 395
+        },
+        {
+            "Frame": 525
+        },
+        {
+            "Frame": 721
+        },
+        {
+            "Frame": 840
+        },
+        {
+            "Frame": 1013
+        },
+        {
+            "Frame": 1197
+        },
+        {
+            "Frame": 1319
+        },
+        {
+            "Frame": 1551
+        },
+        {
+            "Frame": 1771
+        },
+        {
+            "Frame": 1971
+        },
+        {
+            "Frame": 2241
+        },
+        {
+            "Frame": 2653
+        },
+        {
+            "Frame": 2921
+        },
+        {
+            "Frame": 3051
+        },
+        {
+            "Frame": 3325
+        },
+        {
+            "Frame": 3751
+        },
+        {
+            "Frame": 3972
+        },
+        {
+            "Frame": 4221
+        },
+        {
+            "Frame": 4431
+        },
+        {
+            "Frame": 4926
+        },
+        {
+            "Frame": 5365
+        },
+        {
+            "Frame": 6351
+        },
+        {
+            "Frame": 6508
+        },
+        {
+            "Frame": 6719
+        },
+        {
+            "Frame": 6883
+        },
+        {
+            "Frame": 6960
+        },
+        {
+            "Frame": 7430
+        }
+    ],
+    "MessageList": [
+        {
+            "Key": "004_DR_S1",
+            "Message": "1. Well padded tourniquet on the upper arm\n2. Supine with shoulder at the end of surgical bed centered on the hand table\n3. Turn the bed 90 deg so the operating limb is directly away from the anesthesiologist\n4. Optional bump under the wrist\n5. Sterile prep and drape"
+        },
+        {
+            "Key": "004_DR_S2",
+            "Message": "Review preoperative XR which demonstrated loss of radial height, radial inclination and volar tilt that meets operative indication."
+        },
+        {
+            "Key": "004_DR_S3",
+            "Message": "Identify the location of flexor carpi radialis tendon(FCR) with palpation."
+        },
+        {
+            "Key": "004_DR_S3-1",
+            "Message": "Be mindful of the presence or absence of palmaris longus tendon(PL)."
+        },
+        {
+            "Key": "004_DR_S4",
+            "Message": "Mark incision along FCR tendon."
+        },
+        {
+            "Key": "004_DR_S5",
+            "Message": "Use scalpel to sharply incise through the dermis layer and subdermal layer."
+        },
+        {
+            "Key": "004_DR_S7",
+            "Message": "Expose FCR tendon sheath along entire length of the incision with utilization of dull-ended weitlaner retractors."
+        },
+        {
+            "Key": "004_DR_S8",
+            "Message": "Gently incise FCR tendon sheath volarly."
+        },
+        {
+            "Key": "004_DR_S9",
+            "Message": "Be mindful of palmar cutaneous branch of median nerve, which is ulnar to the FCR tendon.\nThis structure is usually not visualized, but it is protected with ulnar retraction of the FCR tendon."
+        },
+        {
+            "Key": "004_DR_S10",
+            "Message": "Retract FCR tendon ulnarly and exposed the dorsal FCR tendon sheath."
+        },
+        {
+            "Key": "004_DR_S11",
+            "Message": "Incise the dorsal FCR tendon sheath and expose the flexor pollicis longus tendon/muscle(FPL) through blunt dissection."
+        },
+        {
+            "Key": "004_DR_S12",
+            "Message": "Be mindful of radial artery under the brachioradialis muscle(BR). Ligate small cross branches of the radial artery as needed prior to retraction."
+        },
+        {
+            "Key": "004_DR_S13",
+            "Message": "Retract FPL ulnarly and BR medially with dull ended weitlaner retractors."
+        },
+        {
+            "Key": "004_DR_S14",
+            "Message": "Expose pronator quadratus muscle(PQ), which spans the volar surface of the distal radius. Sharply make a “L” shaped incised through the distal and radial border of PQ."
+        },
+        {
+            "Key": "004_DR_S14-1",
+            "Message": "Elevate the PQ from the radius with periosteal elevator and expose the fracture underneath."
+        },
+        {
+            "Key": "004_DR_S15",
+            "Message": "Careful debridement of the fracture surface with freer and periosteal Elevator. Gap over the fracture using freer and remove interposed periosteum using rongeur."
+        },
+        {
+            "Key": "004_DR_S15-1",
+            "Message": "Inspect the following:\n     - Fracture pattern \n     - Comminution \n     - Bone quality"
+        },
+        {
+            "Key": "004_DR_S16",
+            "Message": "Irrigate with bulb syringe."
+        },
+        {
+            "Key": "004_DR_S17",
+            "Message": "Reduction maneuver achieved with manual manipulation consists of axial traction, volar translation, and ulnar deviation of the hand."
+        },
+        {
+            "Key": "004_DR_S17-1",
+            "Message": "Optional small roll of blue towel can be placed under the wrist to help maintain reduction."
+        },
+        {
+            "Key": "004_DR_S18",
+            "Message": "Fluoroscopic confirmation of reduction with orthogonal views."
+        },
+        {
+            "Key": "004_DR_S18-1",
+            "Message": "Insert K wire from the radial styloid obliquely across the fracture to temporarily maintain reduction. "
+        },
+        {
+            "Key": "004_DR_S18-2",
+            "Message": "Fluoroscopic confirmation of Kwire position with orthogonal views."
+        },
+        {
+            "Key": "004_DR_S19",
+            "Message": "Place the appropriate chosen distal radius plate on the volar surface of the distal radius. "
+        },
+        {
+            "Key": "004_DR_S19-1",
+            "Message": "Check plate placement radially and ulnarly."
+        },
+        {
+            "Key": "004_DR_S20",
+            "Message": "Drill (2.5mm) bicortically through the center of the proximal oval hole."
+        },
+        {
+            "Key": "004_DR_S21",
+            "Message": "Use depth gauge to obtain approximate screw length."
+        },
+        {
+            "Key": "004_DR_S22",
+            "Message": "Place a 3.5mm bicortical non-locking screw in the center of the proximal oval hole. "
+        },
+        {
+            "Key": "004_DR_S22-1",
+            "Message": "Obtain fluoroscopic views and check proximal and distal position of the plate.The distal end of the plate should not past the volar critical line."
+        },
+        {
+            "Key": "004_DR_S22-2",
+            "Message": "The screws should be directly as distal as possible for subchondral support."
+        },
+        {
+            "Key": "004_DR_S23",
+            "Message": "Insert distal non-locking cortical screw through the distal ulnar hole, which minimizes the risk of EPL injury during bicortical drilling."
+        },
+        {
+            "Key": "004_DR_S23-1",
+            "Message": "Obtain orthogonal fluoroscopic views."
+        },
+        {
+            "Key": "004_DR_S24",
+            "Message": "Insert locking screws of the distal row. "
+        },
+        {
+            "Key": "004_DR_S24-1",
+            "Message": "Obtain orthogonal fluoroscopic views for review. "
+        },
+        {
+            "Key": "004_DR_S24-2",
+            "Message": "Insert non-locking screws proximally."
+        },
+        {
+            "Key": "004_DR_S25",
+            "Message": "Replace distal non-locking screw with locking screw."
+        },
+        {
+            "Key": "004_DR_S26",
+            "Message": "Remove K wire."
+        },
+        {
+            "Key": "004_DR_S27",
+            "Message": "Final fluoroscopic orthogonal views. Check forearm supination and pronation for distal radial ulnar joint instability."
+        },
+        {
+            "Key": "004_DR_S28",
+            "Message": "Irrigation."
+        },
+        {
+            "Key": "004_DR_S29",
+            "Message": "PQ attachment"
+        },
+        {
+            "Key": "004_DR_S30",
+            "Message": "Wound closure"
+        }
+
+    ]
+}

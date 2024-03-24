@@ -1,0 +1,168 @@
+{
+    "Version": "1.1",
+    "StartingDelayInSecond": 3.0,
+    "CPTCode": "CPT 27766",
+    "TitleMessage": "Open treatment of medial malleolus fracture with internal fixation\n\n(CPT 27766)",
+    "GroupList": [
+        {
+            "Frame": 0,
+            "Name": "Positioning and setup"
+        },
+        {
+            "Frame": 153,
+            "Name": "Approach"
+        },
+        {
+            "Frame": 1103,
+            "Name": "Fracture Preperation"
+        },
+        {
+            "Frame": 2557,
+            "Name": "Fracture Fixation"
+        },
+        {
+            "Frame": 4688,
+            "Name": "Closure"
+        }
+    ],
+    "SectionList": [
+        {
+            "Frame": 0
+        },
+        {
+            "Frame": 153
+        },
+        {
+            "Frame": 466
+        },
+        {
+            "Frame": 745
+        },
+        {
+            "Frame": 1102
+        },
+        {
+            "Frame": 1505
+        },
+        {
+            "Frame": 1963
+        },
+        {
+            "Frame": 2275
+        },
+        {
+            "Frame": 2554
+        },
+        {
+            "Frame": 2819
+        },
+        {
+            "Frame": 2944
+        },
+        {
+            "Frame": 3219
+        },
+        {
+            "Frame": 3325
+        },
+        {
+            "Frame": 3503
+        },
+        {
+            "Frame": 3792
+        },
+        {
+            "Frame": 4125
+        },
+        {
+            "Frame": 4249
+        },
+        {
+            "Frame": 4457
+        },
+        {
+            "Frame": 4688
+        },
+        {
+            "Frame": 5012
+        }
+    ],
+    "MessageList": [
+        {
+            "Key": "003_MM_M0",
+            "Message": "Room Preparation:\n1. Thigh Tourniquet(optional)\n2. Ipsilateral hip bump to allow toes point straight up\n3. Sterile prep and drape"
+        },
+        {
+            "Key": "003_MM_M1",
+            "Message": "Mark incision centered over the medial malleolus fracture."
+        },
+        {
+            "Key": "003_MM_M2",
+            "Message": "Incision through skin with scalpel"
+        },
+        {
+            "Key": "003_MM_M3",
+            "Message": "Saphenous nerve and vein are within proximity anteriorly. They are protected with, anterior retraction of the subdermal tissue."
+        },
+        {
+            "Key": "003_MM_M4",
+            "Message": "Incise through periosteum and expose fracture site. Perform limited periosteal elevation."
+        },
+        {
+            "Key": "003_MM_M5",
+            "Message": "Gently gap over the fracture with freer elevator and removed interposed periosteum between the fracture. Gently debride fracture edges with curette."
+        },
+        {
+            "Key": "003_MM_M6",
+            "Message": "Inspect medial talus and ankle joint through the gapped fracture for loose bodies and tibiotalar osteochondral defects. Inspect the posterior tibialis tendon posterior to the fracture site for injury."
+        },
+        {
+            "Key": "003_MM_M7",
+            "Message": "After satisfactory debridement, irrigation with bulb syringe."
+        },
+        {
+            "Key": "003_MM_M8",
+            "Message": "For fracture reduction, use 2.5mm drill bit and create a unicortical hole approximately 2cm proximal to the center of the fracture. Clamp the fracture with pointed reduction forceps and perform gentle reduction."
+        },
+        {
+            "Key": "003_MM_M9",
+            "Message": "Confirm fracture reduction visually and fluoroscopically."
+        },
+        {
+            "Key": "003_MM_M10",
+            "Message": "Insert two parallel K wires across the fracture site for cannulated screw fixation."
+        },
+        {
+            "Key": "003_MM_M11",
+            "Message": "Confirm K wire position with fluoroscopy."
+        },
+        {
+            "Key": "003_MM_M12",
+            "Message": "Drill over the K wire with cannulated drill unicortically."
+        },
+        {
+            "Key": "003_MM_M13",
+            "Message": "Measure screw length with depth gauge over K wire. Place cannulated screw over K wire."
+        },
+        {
+            "Key": "003_MM_M14",
+            "Message": "Repeat process for the 2nd screw. Remove K wires, reduction forceps, and retractors."
+        },
+        {
+            "Key": "003_MM_M15",
+            "Message": "Confirm fracture reduction and hardware placement fluoroscopically."
+        },
+        {
+            "Key": "003_MM_M16",
+            "Message": "Assess syndesmosis with external rotation stress test fluoroscopically. Widening of the medial mortise and syndesmosis upon external rotation in neutral plantarflexion demonstrates syndesmosis injury."
+        },
+        {
+            "Key": "003_MM_M17",
+            "Message": "Irrigation with bulb syringe"
+        },
+        {
+            "Key": "003_MM_M18",
+            "Message": "If syndesmosis is stable, then perform wound closure in layers."
+        }
+    ]
+}

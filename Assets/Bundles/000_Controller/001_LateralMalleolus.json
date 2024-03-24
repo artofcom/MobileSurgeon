@@ -1,0 +1,25 @@
+{
+    "BranchSystem":
+    {
+        "PathInfoList": [
+            {
+                "ControllerName": "001_LM_LP",
+                "PathKey": "LM_LP"
+            },
+            {
+                "ControllerName": "001_LM_PLP_LS",
+                "PathKey": "LM_PLP_LS"
+            },
+            {
+                "ControllerName": "001_LM_PLP_PLPAB_PLPA",
+                "PathKey": "LM_PLP_PLPAB_PLPA"
+            },
+            {
+                "ControllerName": "001_LM_PLP_PLPAB_PLPB",
+                "PathKey": "LM_PLP_PLPAB_PLPB"
+            }
+        ],
+
+        "StartingPathIndex": 0
+    }
+}

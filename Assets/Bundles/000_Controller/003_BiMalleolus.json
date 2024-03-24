@@ -1,0 +1,330 @@
+{
+    "Version": "1.1",
+    "StartingDelayInSecond": 3.0,
+    "CPTCode": "CPT 27814",
+    "TitleMessage": "Open treatment of bimalleolar ankle fracture\n\n(CPT 27814)",
+    "GroupList": [
+        {
+            "Frame": 0,
+            "Name": "Exposure"
+        },
+        {
+            "Frame": 1068,
+            "Name": "Reduction"
+        },
+        {
+            "Frame": 3247,
+            "Name": "Fixation"
+        },
+
+        {
+            "Frame": 6461,
+            "Name": "Approach"
+        },
+        {
+            "Frame": 7411,
+            "Name": "Fracture Preperation"
+        },
+        {
+            "Frame": 8865,
+            "Name": "Fracture Fixation"
+        },
+        {
+            "Frame": 10996,
+            "Name": "Closure"
+        }
+    ],
+    "SectionList": [
+        {
+            "Frame": 0
+        },
+        {
+            "Frame": 116
+        },
+        {
+            "Frame": 263
+        },
+        {
+            "Frame": 514
+        },
+        {
+            "Frame": 759
+        },
+        {
+            "Frame": 1070
+        },
+        {
+            "Frame": 1656
+        },
+        {
+            "Frame": 1905
+        },
+        {
+            "Frame": 2363
+        },
+        {
+            "Frame": 2809
+        },
+        {
+            "Frame": 3247
+        },
+        {
+            "Frame": 3598
+        },
+        {
+            "Frame": 4135
+        },
+        {
+            "Frame": 4505
+        },
+        {
+            "Frame": 4770
+        },
+        {
+            "Frame": 5016
+        },
+        {
+            "Frame": 5172
+        },
+        {
+            "Frame": 5706
+        },
+        {
+            "Frame": 6028
+        },
+        {
+            "Frame": 6209
+        },
+        {
+            "Frame": 6461
+        },
+        {
+            "Frame": 6674
+        },
+        {
+            "Frame": 6953
+        },
+        {
+            "Frame": 7311
+        },
+        {
+            "Frame": 7714
+        },
+        {
+            "Frame": 8172
+        },
+        {
+            "Frame": 8484
+        },
+        {
+            "Frame": 8763
+        },
+        {
+            "Frame": 9028
+        },
+        {
+            "Frame": 9153
+        },
+        {
+            "Frame": 9428
+        },
+        {
+            "Frame": 9534
+        },
+        {
+            "Frame": 9712
+        },
+        {
+            "Frame": 9997
+        },
+        {
+            "Frame": 10329
+        },
+        {
+            "Frame": 10458
+        },
+        {
+            "Frame": 10665
+        },
+        {
+            "Frame": 10873
+        },
+        {
+            "Frame": 11280
+        },
+        {
+            "Frame": 11425
+        },
+        {
+            "Frame": 12121
+        }
+    ],
+    "MessageList": [
+
+        {
+            "Key": "AS_M0",
+            "Message": "Surgical Indication: \n\n- Presence of unstable morties (>4-5mm widening) on static or stress view\n- Presence of talar shift on static or stress view"
+        },
+        {
+            "Key": "AS_M1",
+            "Message": "Room Prep: \n\n1)Thigh Tourniquet\n2)Ipsilateral hip bump\n3)Bump under ankle\n4)Sterile prep and drape"
+        },
+        {
+            "Key": "AS_M2",
+            "Message": "Review Xray \n\nMark incision line"
+        },
+        {
+            "Key": "AS_M3",
+            "Message": "Make longitudinal incision along the posterior margin of the fibula\n\nCenter incision over the fracture site"
+        },
+        {
+            "Key": "AS_M4",
+            "Message": "Anticipate the position of the superficial peroneal nerve crossing from the lateral to anterior compartments. \n\nPerform a superficial dissection through the skin subdermal layer."
+        },
+        {
+            "Key": "AS_M5",
+            "Message": "Incise through the peroneal tendon sheath longitudinally and elevate peroneal muscle proximally with periosteal elevator."
+        },
+        {
+            "Key": "AS_M6",
+            "Message": "Expose and open fracture site with free elevator."
+        },
+        {
+            "Key": "AS_M7",
+            "Message": "Debride fracture with curette and rongeur."
+        },
+        {
+            "Key": "AS_M8",
+            "Message": "Reduce fracture with reduction forceps."
+        },
+        {
+            "Key": "AS_M9",
+            "Message": "Anticipate the position of the lag screw.\n\nPlacement should be perpendicular to the fracture line."
+        },
+        {
+            "Key": "AS_M10",
+            "Message": "Use Hohmann retractor to widen opening.\n\nExpand Weitlaner retractors to hold."
+        },
+        {
+            "Key": "AS_M11",
+            "Message": "Place drill sleeve perpendicular to fracture line.\n\nPlace 3.5mm drill bit info 3.5mm drill sleeve. Drill first cortex.\n\nInsert 2.5mm sleeve into the drilled hole and drill far cortex with 2.5mm."
+        },
+        {
+            "Key": "AS_M12",
+            "Message": "Can countersink first cortex to increase surface area distribution for screw. \n\nUse depth gauge to measure length for appropriate screw size."
+        },
+        {
+            "Key": "AS_M13",
+            "Message": "Insert lag screw and hand-tighten carefully to not break bone.\n\nRemove bone reduction forceps."
+        },
+        {
+            "Key": "AS_M14",
+            "Message": "Select appropriate plate.\n\nUse plate benders to shape plate to the natural contour of the bone."
+        },
+        {
+            "Key": "AS_M15",
+            "Message": "Hold plate in place with bone reduction forceps.\n\nPlan out placement of 3 bicortical and 2 unicortical screws."
+        },
+        {
+            "Key": "AS_M16",
+            "Message": "Using the sleeve as a guide tap with 2.5mm drill bit.\n\nMeasure depth and select appropriate screws.\n\nInsert screws. Repeat in order for the remaining screws."
+        },
+        {
+            "Key": "AS_M17",
+            "Message": "Irrigation with bulb syringe."
+        },
+        {
+            "Key": "AS_M18",
+            "Message": "Irrigation with bulb syringe."
+        },
+        {
+            "Key": "AS_M19",
+            "Message": "Irrigation with bulb syringe."
+        },
+
+        {
+            "Key": "003_BM_M0",
+            "Message": "Remove retractors and proceed to medial malleolus fixation and possible syndesmosis fixation."
+        },
+        {
+            "Key": "003_BM_M1",
+            "Message": "Mark incision centered over the medial malleolus fracture."
+        },
+        {
+            "Key": "003_BM_M2",
+            "Message": "Incision through skin with scalpel"
+        },
+        {
+            "Key": "003_BM_M3",
+            "Message": "Saphenous nerve and vein are within proximity anteriorly. They are protected with, anterior retraction of the subdermal tissue."
+        },
+        {
+            "Key": "003_BM_M4",
+            "Message": "Incise through periosteum and expose fracture site. Perform limited periosteal elevation."
+        },
+        {
+            "Key": "003_BM_M5",
+            "Message": "Gently gap over the fracture with freer elevator and removed interposed periosteum between the fracture. Gently debride fracture edges with curette."
+        },
+        {
+            "Key": "003_BM_M6",
+            "Message": "Inspect medial talus and ankle joint through the gapped fracture for loose bodies and tibiotalar osteochondral defects. Inspect the posterior tibialis tendon posterior to the fracture site for injury."
+        },
+        {
+            "Key": "003_BM_M7",
+            "Message": "After satisfactory debridement, irrigation with bulb syringe."
+        },
+        {
+            "Key": "003_BM_M8",
+            "Message": "For fracture reduction, use 2.5mm drill bit and create a unicortical hole approximately 2cm proximal to the center of the fracture. Clamp the fracture with pointed reduction forceps and perform gentle reduction."
+        },
+        {
+            "Key": "003_BM_M9",
+            "Message": "Confirm fracture reduction visually and fluoroscopically."
+        },
+        {
+            "Key": "003_BM_M10",
+            "Message": "Insert two parallel K wires across the fracture site for cannulated screw fixation."
+        },
+        {
+            "Key": "003_BM_M11",
+            "Message": "Confirm K wire position with fluoroscopy."
+        },
+        {
+            "Key": "003_BM_M12",
+            "Message": "Drill over the K wire with cannulated drill unicortically."
+        },
+        {
+            "Key": "003_BM_M13",
+            "Message": "Measure screw length with depth gauge over K wire. Place cannulated screw over K wire."
+        },
+        {
+            "Key": "003_BM_M14",
+            "Message": "Repeat process for the 2nd screw. Remove K wires, reduction forceps, and retractors."
+        },
+        {
+            "Key": "003_BM_M15",
+            "Message": "Confirm fracture reduction and hardware placement fluoroscopically."
+        },
+        {
+            "Key": "003_BM_M16",
+            "Message": "Assess syndesmosis with Cotton test fluoroscopically. Widening of the syndesmosis with lateral pull of the fibula demonstrates syndesmosis injury."
+        },
+        {
+            "Key": "003_BM_M17",
+            "Message": "Assess syndesmosis with external rotation stress test fluoroscopically. Widening of the medial mortise and syndesmosis upon external rotation in neutral plantarflexion demonstrates syndesmosis injury."
+        },
+        {
+            "Key": "003_BM_M18",
+            "Message": "Irrigation with bulb syringe."
+        },
+        {
+            "Key": "003_BM_M19",
+            "Message": "If syndesmosis is stable, then perform wound closure in layers."
+        },
+        {
+            "Key": "003_BM_M20",
+            "Message": "If syndesmosis is stable, then perform wound closure in layers."
+        }
+    ]
+}

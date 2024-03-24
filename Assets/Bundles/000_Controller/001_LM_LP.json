@@ -1,0 +1,198 @@
+{
+    "StartingDelayInSecond": 3.0,
+    "CPTCode": "CPT 27792",
+    "TitleMessage": "Open treatment of lateral malleolus fracture with open reduction internal fixation\n\n(CPT 27792)",
+    "PathDataKey": "LM_LP",
+    "GroupList": [
+        {
+            "Frame": 0,
+            "Name": "Exposure"
+        },
+        {
+            "Frame": 1068,
+            "Name": "Reduction"
+        },
+        {
+            "Frame": 3247,
+            "Name": "Fixation"
+        },
+        {
+            "Frame": 5706,
+            "Name": "Closure"
+        }
+    ],
+    "SectionList": [
+        {
+            "Frame": 0
+        },
+        {
+            "Frame": 116
+        },
+        {
+            "Frame": 263
+        },
+        {
+            "Frame": 514
+        },
+        {
+            "Frame": 759
+        },
+        {
+            "Frame": 1070
+        },
+        {
+            "Frame": 1656
+        },
+        {
+            "Frame": 1905
+        },
+        {
+            "Frame": 2363
+        },
+        {
+            "Frame": 2809
+        },
+        {
+            "Frame": 3247
+        },
+        {
+            "Frame": 3598
+        },
+        {
+            "Frame": 4135
+        },
+        {
+            "Frame": 4505
+        },
+        {
+            "Frame": 4770
+        },
+        {
+            "Frame": 5016
+        },
+        {
+            "Frame": 5172
+        },
+        {
+            "Frame": 5706
+        },
+        {
+            "Frame": 6028
+        },
+        {
+            "Frame": 6650
+        }
+    ],
+    "MessageList": [
+        {
+            "Key": "AS_M0",
+            "Message": "Surgical Indication: \n\n- Presence of unstable morties (>4-5mm widening) on static or stress view\n- Presence of talar shift on static or stress view"
+        },
+        {
+            "Key": "AS_M1",
+            "Message": "Room Prep: \n\n1)Thigh Tourniquet\n2)Ipsilateral hip bump\n3)Bump under ankle\n4)Sterile prep and drape"
+        },
+        {
+            "Key": "AS_M2",
+            "Message": "Review Xray \n\nMark incision line"
+        },
+        {
+            "Key": "AS_M3",
+            "Message": "Make longitudinal incision along the posterior margin of the fibula\n\nCenter incision over the fracture site"
+        },
+        {
+            "Key": "AS_M4",
+            "Message": "Anticipate the position of the superficial peroneal nerve crossing from the lateral to anterior compartments. \n\nPerform a superficial dissection through the skin subdermal layer."
+        },
+        {
+            "Key": "AS_M5",
+            "Message": "Incise through the peroneal tendon sheath longitudinally and elevate peroneal muscle proximally with periosteal elevator."
+        },
+        {
+            "Key": "AS_M6",
+            "Message": "Expose and open fracture site with free elevator."
+        },
+        {
+            "Key": "AS_M7",
+            "Message": "Debride fracture with curette and rongeur."
+        },
+        {
+            "Key": "AS_M8",
+            "Message": "Reduce fracture with reduction forceps."
+        },
+        {
+            "Key": "AS_M9",
+            "Message": "Anticipate the position of the lag screw.\n\nPlacement should be perpendicular to the fracture line."
+        },
+        {
+            "Key": "AS_M10",
+            "Message": "Use Hohmann retractor to widen opening.\n\nExpand Weitlaner retractors to hold."
+        },
+        {
+            "Key": "AS_M11",
+            "Message": "Place drill sleeve perpendicular to fracture line.\n\nPlace 3.5mm drill bit info 3.5mm drill sleeve. Drill first cortex.\n\nInsert 2.5mm sleeve into the drilled hole and drill far cortex with 2.5mm."
+        },
+        {
+            "Key": "AS_M12",
+            "Message": "Can countersink first cortex to increase surface area distribution for screw. \n\nUse depth gauge to measure length for appropriate screw size."
+        },
+        {
+            "Key": "AS_M13",
+            "Message": "Insert lag screw and hand-tighten carefully to not break bone.\n\nRemove bone reduction forceps."
+        },
+        {
+            "Key": "AS_M14",
+            "Message": "Select appropriate plate.\n\nUse plate benders to shape plate to the natural contour of the bone."
+        },
+        {
+            "Key": "AS_M15",
+            "Message": "Hold plate in place with bone reduction forceps.\n\nPlan out placement of 3 bicortical and 2 unicortical screws."
+        },
+        {
+            "Key": "AS_M16",
+            "Message": "Using the sleeve as a guide tap with 2.5mm drill bit.\n\nMeasure depth and select appropriate screws.\n\nInsert screws. Repeat in order for the remaining screws."
+        },
+        {
+            "Key": "AS_M17",
+            "Message": "Irrigation with bulb syringe."
+        },
+        {
+            "Key": "AS_M18",
+            "Message": "Wound closure in layers including peroneal tendon sheath, subdermal and dermal layers."
+        },
+        {
+            "Key": "AS_M19",
+            "Message": "Wound closure in layers including peroneal tendon sheath, subdermal and dermal layers."
+        },
+
+
+        {
+            "Key": "LM_CH1",
+            "Message": "Finish Locking Plate or try Lag Screw. hit \n\n <size=20%> AAA BBB CCC."
+        },
+        {
+            "Key": "LM_CH2",
+            "Message": "Try LS, PLP or Finish Locking Plate."
+        },
+        {
+            "Key": "LM_CH3",
+            "Message": "Try Lag Screw or try PLP AB."
+        },
+        {
+            "Key": "LM_CH4",
+            "Message": "Finish Lag Screw or try PLP AB."
+        },
+        {
+            "Key": "LM_CH5",
+            "Message": "Finish PLP A or PLP B."
+        },
+        {
+            "Key": "LM_CH6",
+            "Message": "Finish PLP A or try PLP B."
+        },
+        {
+            "Key": "LM_CH7",
+            "Message": "Finish PLP B or try PLP A."
+        }
+    ]
+}
