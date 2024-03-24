@@ -24,7 +24,6 @@ namespace App.MVCS
         bool IsServiceInitialized = false;
 
         bool IsReadyToLogin => IsConfigLoaded && IsServiceInitialized;
-        bool IsReadyToSceneTransit = false;
 
         const string GUESTID_KEY = "GuestId";
         string GuestId = string.Empty;
@@ -41,9 +40,11 @@ namespace App.MVCS
             _context = context;
 
             _view.StartCoroutine(coInit());
+            _view.SetViewState(SurgeLoadingView.STATE.TRY_AUTO_SESSIONLOGIN);
 
             AsyncInitService();
 
+            Events.RegisterEvent("SurgeLoadingView_OnEnable", SurgeLoadingView_OnEnable);
             Events.RegisterEvent("SurgeLoadingView_OnBtnContinueClicked", SurgeLoadingView_OnBtnContinueClicked);
             Events.RegisterEvent("SurgeLoadingView_OnBtnGuestLoginClicked", SurgeLoadingView_OnBtnGuestLoginClicked);
             Events.RegisterEvent("SurgeLoadingView_OnBtnSignUpSubmitClicked", SurgeLoadingView_OnBtnSignUpSubmitClicked);
@@ -52,7 +53,14 @@ namespace App.MVCS
 
         // Event Receivers --------------------------------
         //
-        void SurgeLoadingView_OnBtnContinueClicked(object data)
+        void SurgeLoadingView_OnEnable(object data)
+        {
+            Debug.Log("SurgeLoadingView_OnEnable");
+
+            _view.ClearInputField();
+            _view.StartCoroutine( coSetSignInAction() );
+        }
+        void SurgeLoadingView_OnBtnContinueClicked(object data) // Try Sign in.
         {
             if (!IsReadyToLogin)
             {
@@ -99,21 +107,20 @@ namespace App.MVCS
 
                 }));
         }
-
-        IEnumerator coUpdateProgressBar()
+        IEnumerator coSetSignInAction()
         {
-            _view.SwitchToProgressViewGroup();
+            yield return new WaitUntil(() => IsServiceInitialized == true);
 
-            const float LoadingViewMinTime = 0.5f;
-            float fStartTime = Time.time;
-
-            while (Time.time - fStartTime <= LoadingViewMinTime)
+            if (_context.IsSignedOut)
+                _view.SetViewState(SurgeLoadingView.STATE.WAIT_FOR_INPUT);
+            else
             {
-                float progress = (Time.time - fStartTime) / LoadingViewMinTime;
-                _view.RefreshProgressBar(progress);
-                yield return null;
+                Task task = SignUserWithCustomTokenWithAutoRefresh();
+                yield return new WaitUntil(() => task.IsCompleted);
             }
         }
+
+        
 
 
 
@@ -128,9 +135,6 @@ namespace App.MVCS
             SetupEvents();
 
             IsServiceInitialized = true;
-
-            if(!_context.IsSignedOut)
-                await SignUserWithCustomTokenWithAutoRefresh();
         }
         async void AsyncGuestLogin()
         {
@@ -143,21 +147,6 @@ namespace App.MVCS
         async void AsyncSignUp(string email, string pw)
         {
             await SignUpWithUsernamePassword(email, pw);
-        }
-
-        IEnumerator coCheckToTransitView()
-        {
-            while(true)
-            {
-                if (IsReadyToSceneTransit)
-                    break;
-
-                yield return null;
-            }
-
-            yield return _view.StartCoroutine(coUpdateProgressBar());
-
-            EventSystem.DispatchEvent("SurgeLoading_OnSignInSuccessed", (object)true);
         }
 
         void SetupEvents()
@@ -173,8 +162,7 @@ namespace App.MVCS
                     PlayerPrefs.SetString(GUESTID_KEY, GuestId);
                     IsNewGuestLogin = false;
                 }
-
-                _view.StartCoroutine(coCheckToTransitView());
+                //_view.SetViewState(SurgeLoadingView.STATE.SIGN_IN_SUCCESSED);
             };
 
             AuthenticationService.Instance.SignInFailed += (err) =>
@@ -182,6 +170,7 @@ namespace App.MVCS
                 var presentData = new MessageDialogView.PresentData();
                 presentData.Message = "SignInFailed : " + err.Message;
                 _context.TriggerDialog("messageDialog", presentData, (returnedData) => { });
+                //_view.SetViewState(SurgeLoadingView.STATE.WAIT_FOR_INPUT);
             };
 
             AuthenticationService.Instance.SignedOut += () =>
@@ -195,11 +184,14 @@ namespace App.MVCS
             AuthenticationService.Instance.Expired += () =>
             {
                 Debug.Log("Player session expired.");
+                _view.SetViewState(SurgeLoadingView.STATE.WAIT_FOR_INPUT);
             };
         }
 
         async Task SignInGuestAsync()
         {
+            bool successed = false;
+            _view.SetViewState(SurgeLoadingView.STATE.TRY_SIGN_IN);
             try
             {
                 string guestId = PlayerPrefs.GetString(GUESTID_KEY);
@@ -231,10 +223,9 @@ namespace App.MVCS
                     await AuthenticationService.Instance.SignInWithUsernamePasswordAsync(guestId, GuestPW);
                 }
 
+                successed = true;
                 Debug.Log("Sign in anonymousley successed.");
                 Debug.Log($"PlayerID : {AuthenticationService.Instance.PlayerId}");
-
-                IsReadyToSceneTransit = true;
             }
             catch (AuthenticationException ex)
             {
@@ -248,16 +239,22 @@ namespace App.MVCS
                 presentData.Message = "GuestLogin Req Error : " + ex.Message;
                 _context.TriggerDialog("messageDialog", presentData, (returnedData) => { });
             }
+            finally
+            {
+                if (successed)  _view.SetViewState(SurgeLoadingView.STATE.SIGN_IN_SUCCESSED);
+                else            _view.SetViewState(SurgeLoadingView.STATE.WAIT_FOR_INPUT);
+            }
         }
 
         async Task SignInWithUsernamePasswordAsync(string username, string password)
         {
+            bool successed = false;
+            _view.SetViewState(SurgeLoadingView.STATE.TRY_SIGN_IN);
             try
             {
                 await AuthenticationService.Instance.SignInWithUsernamePasswordAsync(username, password);
+                successed = true;
                 Debug.Log("SignIn is successful.");
-
-                IsReadyToSceneTransit = true;
             }
             catch (AuthenticationException ex)
             {
@@ -271,20 +268,27 @@ namespace App.MVCS
                 presentData.Message = "SignIn Req Error : " + ex.Message;
                 _context.TriggerDialog("messageDialog", presentData, (returnedData) => { _view.ClearInputField(); });
             }
+            finally
+            {
+                if (successed)  _view.SetViewState(SurgeLoadingView.STATE.SIGN_IN_SUCCESSED);
+                else            _view.SetViewState(SurgeLoadingView.STATE.WAIT_FOR_INPUT);
+            }
         }
 
         async Task SignUpWithUsernamePassword(string username, string password)
         {
+            bool successed = false;
+            _view.SetViewState(SurgeLoadingView.STATE.TRY_SIGN_IN);
             try
             {
                 await AuthenticationService.Instance.SignUpWithUsernamePasswordAsync(username, password);
                 Debug.Log("SignUp is successful.");
-
+                
                 var presentData = new MessageDialogView.PresentData();
                 presentData.Message = "SignUp is successful.";
                 _context.TriggerDialog("messageDialog", presentData, (returnedData) =>
                 {
-                    IsReadyToSceneTransit = true;
+                    _view.SetViewState(SurgeLoadingView.STATE.SIGN_IN_SUCCESSED);
                 });
             }
             catch (AuthenticationException ex)
@@ -299,27 +303,25 @@ namespace App.MVCS
                 presentData.Message = "Signup Req Error : " + ex.Message;
                 _context.TriggerDialog("messageDialog", presentData, (returnedData) => { _view.ClearInputField(); });
             }
+            finally
+            {
+                if (!successed)
+                    _view.SetViewState(SurgeLoadingView.STATE.SIGN_UP);
+            }
         }
 
         async Task SignUserWithCustomTokenWithAutoRefresh()
         {
+            bool successed = false;
+            _view.SetViewState(SurgeLoadingView.STATE.TRY_SIGN_IN);
             try
             {
                 // Check if a cached player already exists by checking if the session token exists
                 if (AuthenticationService.Instance.SessionTokenExists)
                 {
-                    // This call will sign in the cached player.
-                    //var option = new SignInOptions();
-                    //option.CreateAccount = false;
                     await AuthenticationService.Instance.SignInAnonymouslyAsync();// option);
                     Debug.Log("Cached user sign in succeeded!");
-
-                    IsReadyToSceneTransit = true;
-                }
-                else
-                {
-                    //var userTokens = "";// Fetch the user tokens using your method calls
-                    //AuthenticationService.Instance.ProcessAuthenticationTokens(userTokens.AccessToken, userTokens.SessionToken)
+                    successed = true;
                 }
                 // Shows how to get the playerID
                 Debug.Log($"PlayerID: {AuthenticationService.Instance.PlayerId}");
@@ -340,6 +342,11 @@ namespace App.MVCS
             {
                 // Handle exceptions from your method call
                 Debug.LogException(ex);
+            }
+            finally
+            {
+                if (successed)  _view.SetViewState(SurgeLoadingView.STATE.SIGN_IN_SUCCESSED);
+                else            _view.SetViewState(SurgeLoadingView.STATE.WAIT_FOR_INPUT);
             }
         }
 
@@ -387,5 +394,21 @@ namespace App.MVCS
 
 
     }
+
+    /*
+    IEnumerator coUpdateProgressBar()
+    {
+        _view.SetViewState(SurgeLoadingView.STATE.SIGN_IN_SUCCESSED);
+
+        const float LoadingViewMinTime = 0.5f;
+        float fStartTime = Time.time;
+
+        while (Time.time - fStartTime <= LoadingViewMinTime)
+        {
+            float progress = (Time.time - fStartTime) / LoadingViewMinTime;
+            _view.RefreshProgressBar(progress);
+            yield return null;
+        }
+    }*/
 
 }

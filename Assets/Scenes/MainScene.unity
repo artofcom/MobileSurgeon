@@ -5012,7 +5012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213905167}
   m_Layer: 5
-  m_Name: LoadingView
+  m_Name: ProgressBarView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13023,7 +13023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ProgressBar: {fileID: 476192948}
   ObjLoadingShrug: {fileID: 2096920674}
-  ObjLoadingView: {fileID: 213905166}
+  ObjProgressBarGroup: {fileID: 213905166}
   ObjLoginGroup: {fileID: 534980313}
   ObjSignUpGroup: {fileID: 1540368331}
   InputLoginID: {fileID: 992208893}
@@ -14357,7 +14357,7 @@ RectTransform:
   m_GameObject: {fileID: 534980313}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 95000545}
@@ -38384,7 +38384,7 @@ RectTransform:
   m_GameObject: {fileID: 1540368331}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1533884661}

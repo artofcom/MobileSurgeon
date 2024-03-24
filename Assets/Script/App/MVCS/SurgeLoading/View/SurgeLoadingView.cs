@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 
 namespace App.MVCS
 {
@@ -10,7 +10,7 @@ namespace App.MVCS
         //
         [SerializeField] RectTransform ProgressBar;
         [SerializeField] GameObject ObjLoadingShrug;
-        [SerializeField] GameObject ObjLoadingView;
+        [SerializeField] GameObject ObjProgressBarGroup;
         [SerializeField] GameObject ObjLoginGroup;
         [SerializeField] GameObject ObjSignUpGroup;
 
@@ -26,6 +26,18 @@ namespace App.MVCS
         public string SignUpID => InputSignupID.text;
         public string SignUpPassword => InputSignupPW.text;
 
+
+        public enum STATE
+        {
+            TRY_AUTO_SESSIONLOGIN,
+            WAIT_FOR_INPUT,
+            SIGN_UP,
+            TRY_SIGN_IN,
+            SIGN_IN_SUCCESSED,
+        }
+        STATE mEState = STATE.TRY_AUTO_SESSIONLOGIN;
+
+
         //  Unity Event Handlers ------------------------------
         // Start is called before the first frame update
         void Start()
@@ -36,38 +48,50 @@ namespace App.MVCS
             UnityEngine.Assertions.Assert.IsTrue(InputLoginPW != null);
             UnityEngine.Assertions.Assert.IsTrue(InputSignupID != null);
             UnityEngine.Assertions.Assert.IsTrue(InputSignupPW != null);
-
-            ObjLoadingShrug.SetActive(false);
-            ObjSignUpGroup.SetActive(false);
-            ObjLoginGroup.SetActive(true);
         }
         private void OnEnable()
         {
-            //ObjLoadingShrug.SetActive(false);
-            ObjSignUpGroup.SetActive(false);
-            ObjLoginGroup.SetActive(true);
-            ObjLoadingView.SetActive(false);
-
-            Core.Events.EventSystem.DispatchEvent("SurgeLoadingView_OnEnable");
+            StartCoroutine(TriggerActionWithDelay(0.1f, () => Core.Events.EventSystem.DispatchEvent("SurgeLoadingView_OnEnable") ));
         }
         private void OnDisable()
         {
             Core.Events.EventSystem.DispatchEvent("SurgeLoadingView_OnDisable");
         }
-
-
-        public void SwitchToLoginViewGroup()
+        public void SetViewState(STATE state)
         {
-            //ObjLoadingShrug.SetActive(false);
-            ObjSignUpGroup.SetActive(false);
-            ObjLoginGroup.SetActive(true);
-        }
-        public void SwitchToProgressViewGroup()
-        {
-            //ObjLoadingShrug.SetActive(true);
-            ObjSignUpGroup.SetActive(false);
-            ObjLoginGroup.SetActive(false);
-            ObjLoadingView.SetActive(true);
+            switch(state)
+            {
+                case STATE.TRY_AUTO_SESSIONLOGIN:
+                    ObjLoadingShrug.SetActive(true);
+                    ObjProgressBarGroup.SetActive(false);
+                    ObjSignUpGroup.SetActive(false);
+                    ObjLoginGroup.SetActive(false);
+                    break;
+                case STATE.WAIT_FOR_INPUT:
+                    ObjLoadingShrug.SetActive(false);
+                    ObjProgressBarGroup.SetActive(false);
+                    ObjSignUpGroup.SetActive(false);
+                    ObjLoginGroup.SetActive(true);
+                    break;
+                case STATE.TRY_SIGN_IN:
+                    ObjLoadingShrug.SetActive(true);
+                    break;
+                case STATE.SIGN_UP:
+                    ObjLoadingShrug.SetActive(false);
+                    ObjProgressBarGroup.SetActive(false);
+                    ObjSignUpGroup.SetActive(true);
+                    ObjLoginGroup.SetActive(false);
+                    break;
+                case STATE.SIGN_IN_SUCCESSED:
+                    StartCoroutine(coUpdateProgressBar());
+                    ObjProgressBarGroup.SetActive(true);
+                    ObjSignUpGroup.SetActive(false);
+                    ObjLoginGroup.SetActive(false);
+                    break;
+                default:
+                    return;
+            }
+            mEState = state;
         }
 
         public void RefreshProgressBar(float progress)
@@ -82,14 +106,12 @@ namespace App.MVCS
 
         public void OnBtnSignUpClicked()
         {
-            ObjSignUpGroup.SetActive(true);
-            ObjLoginGroup.SetActive(false);
+            SetViewState(STATE.SIGN_UP);
         }
 
         public void OnBtnSignUpCloseClicked()
         {
-            ObjSignUpGroup.SetActive(false);
-            ObjLoginGroup.SetActive(true);
+            SetViewState(STATE.WAIT_FOR_INPUT);
         }
 
         public void ClearInputField()
@@ -109,7 +131,7 @@ namespace App.MVCS
         {
             Core.Events.EventSystem.DispatchEvent("SurgeLoadingView_OnBtnGuestLoginClicked");
 
-            ObjLoadingView.SetActive(true);
+            ObjProgressBarGroup.SetActive(true);
             ObjLoginGroup.SetActive(false);
         }
 
@@ -121,6 +143,27 @@ namespace App.MVCS
         public void OnBtnFaceBookGuestLoginClicked()
         {
             //Core.Events.EventSystem.DispatchEvent("SurgeLoadingView_OnEnable");
+        }
+
+        IEnumerator coUpdateProgressBar()
+        {
+            const float LoadingViewMinTime = 0.5f;
+            float fStartTime = Time.time;
+
+            while (Time.time - fStartTime <= LoadingViewMinTime)
+            {
+                float progress = (Time.time - fStartTime) / LoadingViewMinTime;
+                RefreshProgressBar(progress);
+                yield return null;
+            }
+            Core.Events.EventSystem.DispatchEvent("SurgeLoading_OnSignInSuccessed", (object)true);
+        }
+
+        IEnumerator TriggerActionWithDelay(float delay, System.Action action)
+        {
+            yield return new WaitForSeconds(delay);
+
+            action.Invoke();
         }
     }
 }
