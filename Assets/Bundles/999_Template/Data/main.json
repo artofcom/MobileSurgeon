@@ -1,0 +1,107 @@
+{
+    "StartingDelayInSecond": 3.0,
+    "GroupList": [
+        {
+            "Frame": 0,
+            "Name": "Exposure"
+        },
+        {
+            "Frame": 1000,
+            "Name": "Reduction"
+        },
+        {
+            "Frame": 2000,
+            "Name": "Fixation"
+        },
+        {
+            "Frame": 3000,
+            "Name": "Closure"
+        }
+    ],
+    "SectionList": [
+        {
+            "Frame": 0,
+            "Message": "Remove hohmann and weitlaner retractors.\n\n Incisions remain open in case adjustment is needed."
+        },
+        {
+            "Frame": 252,
+            "Message": "Review Xray \n\nMark incision line"
+        },
+        {
+            "Frame": 465,
+            "Message": "Make longitudinal incision along the posterior margin of the fibula\n\nCenter incision over the fracture site"
+        },
+        {
+            "Frame": 744,
+            "Message": "Anticipate the position of the superficial peroneal nerve crossing from the lateral to anterior compartments. \n\nPerform a superficial dissection through the skin subdermal layer."
+        },
+        {
+            "Frame": 1102,
+            "Message": "Incise through the peroneal tendon sheath longitudinally and elevate peroneal muscle proximally with periosteal elevator."
+        },
+        {
+            "Frame": 1505,
+            "Message": "Expose and open fracture site with free elevator."
+        },
+        {
+            "Frame": 1963,
+            "Message": "Debride fracture with curette and rongeur."
+        },
+        {
+            "Frame": 2275,
+            "Message": "Reduce fracture with reduction forceps."
+        },
+        {
+            "Frame": 2554,
+            "Message": "Anticipate the position of the lag screw.\n\nPlacement should be perpendicular to the fracture line."
+        },
+        {
+            "Frame": 2819,
+            "Message": "Use Hohmann retractor to widen opening.\n\nExpand Weitlaner retractors to hold."
+        },
+        {
+            "Frame": 2944,
+            "Message": "Place drill sleeve perpendicular to fracture line.\n\nPlace 3.5mm drill bit info 3.5mm drill sleeve. Drill first cortex.\n\nInsert 2.5mm sleeve into the drilled hole and drill far cortex with 2.5mm."
+        },
+        {
+            "Frame": 3219,
+            "Message": "Can countersink first cortex to increase surface area distribution for screw. \n\nUse depth gauge to measure length for appropriate screw size."
+        },
+        {
+            "Frame": 3325,
+            "Message": "Insert lag screw and hand-tighten carefully to not break bone.\n\nRemove bone reduction forceps."
+        },
+        {
+            "Frame": 3503,
+            "Message": "Select appropriate plate.\n\nUse plate benders to shape plate to the natural contour of the bone."
+        },
+        {
+            "Frame": 4120,
+            "Message": "Hold plate in place with bone reduction forceps.\n\nPlan out placement of 3 bicortical and 2 unicortical screws."
+        },
+        {
+            "Frame": 4249,
+            "Message": "Using the sleeve as a guide tap with 2.5mm drill bit.\n\nMeasure depth and select appropriate screws.\n\nInsert screws. Repeat in order for the remaining screws."
+        },
+        {
+            "Frame": 4457,
+            "Message": "Irrigation with bulb syringe."
+        },
+        {
+            "Frame": 4664,
+            "Message": "Wound closure in layers including peroneal tendon sheath, subdermal and dermal layers."
+        },
+        {
+            "Frame": 4891,
+            "Message": ""
+        },
+        {
+            "Frame": 5216,
+            "Message": ""
+        },
+        {
+            "Frame": 6000,
+            "Message": ""
+        }
+    ]
+}
