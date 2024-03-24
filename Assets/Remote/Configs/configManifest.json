@@ -1,0 +1,22 @@
+{
+    "header": {
+        "date": "7:00 PM 10/4/2023"
+    },
+    "configs": [
+        {
+            "name": "homeviewlist",
+            "path": "mobilesurgerytest0/configs/homeviewlist/0510231207",
+            "hash": "0510231207"
+        },
+        {
+            "name": "surgerylist",
+            "path": "mobilesurgerytest0/configs/surgerylist/0410231540",
+            "hash": "0410231540"
+        },
+        {
+            "name": "ankle001",
+            "path": "mobilesurgerytest0/configs/details/ankle001/0410231559",
+            "hash": "0410231559"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "CardList": [
+        {
+            "Type": "BIG",
+            "SurgId": "ankle0001",
+            "Tag": "BookMark",
+            "IconPath": "https://storage.googleapis.com/mobilesurgerytest0/images/ankle/ankle0001_big_092523_1450.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "ankle0001",
+            "PhaseIndex": 0,
+            "IconPath": "https://storage.googleapis.com/mobilesurgerytest0/images/ankle0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-WEB Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "ankle0001",
+            "PhaseIndex": 1,
+            "IconPath": "https://storage.googleapis.com/mobilesurgerytest0/images/arm0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-1 Surgery"
+        },
+        {
+            "Type": "BIG",
+            "SurgId": "foot0001",
+            "Tag": "Continue Learning",
+            "IconPath": "https://storage.googleapis.com/mobilesurgerytest0/images/ankle/ankle0001_big_092523_1451.jpg",
+            "DataName": "ankle001",
+            "Desc": "Foot 001 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "foot0001",
+            "PhaseIndex": 0,
+            "IconPath": "https://storage.googleapis.com/mobilesurgerytest0/images/foot0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-0 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "foot0001",
+            "PhaseIndex": 1,
+            "IconPath": "https://storage.googleapis.com/mobilesurgerytest0/images/hand0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-1 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "foot0001",
+            "PhaseIndex": 2,
+            "IconPath": "https://storage.googleapis.com/mobilesurgerytest0/images/eye0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-2 Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "SurgId": "ankle0001",
+            "PhaseIndex": 2,
+            "IconPath": "https://storage.googleapis.com/mobilesurgerytest0/images/nose0001.jpg",
+            "DataName": "ankle001",
+            "Desc": "Ankle 001-2 Surgery"
+        }
+
+    ]
+
+
+
+}
