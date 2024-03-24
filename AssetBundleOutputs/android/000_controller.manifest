@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1150419240
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 353b68685bba3ce67c3a927985a9d0b2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 353b68685bba3ce67c3a927985a9d0b2
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Bundles/000_Controller/003_BiMalleolus.json
+- Assets/Bundles/000_Controller/004_DistalRadius.json
+- Assets/Bundles/000_Controller/001_AnkleSurgery.json
+- Assets/Bundles/000_Controller/510_TriMalleolus.json
+- Assets/Bundles/000_Controller/003_MedialMalleolus.json
+- Assets/Bundles/000_Controller/600_AnimBranchDemoPathB.json
+- Assets/Bundles/000_Controller/600_AnimBranchDemo.json
+- Assets/Bundles/000_Controller/600_AnimBranchDemoPathA.json
+Dependencies: []

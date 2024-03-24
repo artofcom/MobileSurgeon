@@ -1,0 +1,637 @@
+ManifestFileVersion: 0
+CRC: 1718485530
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b02c1804b324b2e2a142866d08231a09
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 61a6845e4792292a2f03887db2943de3
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b02c1804b324b2e2a142866d08231a09
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af945b1be93b54989857326ad1b7cab5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dae02553d86ef4a50b7b97d69968dab9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d21dcc2386d650c4597f3633c75a1f98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8cd126d07421a4c24a2e020a7fbd3f95, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f0b09b94820cb47d2a2a6ad4e1b3c965, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 41fd51524fdde48e4a0648c75a5be21b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 88ddf5508650c46d59ed4cb54c1d987c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e399518120bbd247b6efbaf3fe24356, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8919fbc03049449ba89447666d9fafc6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 446a62da9c942e54581adf2b9753e874, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ec638260e5f36dd498e40a036f7c34f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 269271dbba0a14fa79f0a2a31d010c4a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5fc762419897e401493d6d89ec0794de, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0f8b5b989a1148ddb5cf9214450225e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 215
+  Script: {instanceID: 0}
+- Class: 220
+  Script: {instanceID: 0}
+- Class: 320
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Script.Core
+  ClassName: ShotInfo
+- AssemblyName: Script.Core
+  ClassName: Tantawowa.TimelineEvents.TimelineEventBehaviour
+- AssemblyName: Script.Core
+  ClassName: TransparencyTargetAniInfo
+- AssemblyName: Script.Core
+  ClassName: TransparencyTargetInfo
+- AssemblyName: Script.Core
+  ClassName: XRayData
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.BoolParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedIntParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ColorParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.MinFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.TextureParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.Vector2Parameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.DepthOfFieldModeParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.DownscaleParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.HDRACESPresetParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.TemporalAA/Settings
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.TonemappingModeParameter
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.MarkerList
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineAsset/EditorSettings
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineClip
+Assets:
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_024_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/depthGauge/004_021_depthGauge_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew2/004_024_lockScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_021_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/drillMedical_u.controller
+- Assets/Bundles/004_DistalRadius/Textures/couplingHandle/coHandle_dif_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew2/004_029_lockScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/distalPlate_tex/disPlate_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_010_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew3/004_024_lockScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_019_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Materials/waterSpray02.mat
+- Assets/Bundles/004_DistalRadius/Animations/boneTransA004/004_002_boneTransA004_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole3/004_023_hole3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmUncut/SetToDefaultMap.anim
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_023_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_029_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/drillMedical/004_020_drillMedical_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/rArmUncut_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew2/004_024_cortexScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/couplingHandle/coHandle_metalM_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/powerDrill_amboc_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole2/004_028_hole2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/004_006_scapel_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/ankleBump_dif_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/scalpel_metalM_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole3/004_025_hole3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/S22_TransitOut.anim
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_015_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_005_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_027_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_007_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/depthGauge/004_023_depthGauge_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/sheath/sheath_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew1/004_025_cortexScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0007.mat
+- Assets/Bundles/004_DistalRadius/Animations/rArmCutGeo/TransitOut.anim
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew2/004_028_lockScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/metal.mat
+- Assets/Bundles/004_DistalRadius/Textures/depthGauge_amboc_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_023_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_022_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/01/004_01_AP_01.png
+- Assets/Bundles/004_DistalRadius/Materials/ArmCut/sheath.mat
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_019_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/bulbSyringe/004_028_bulbSyringe_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_012_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/models/lightShapes 1/multiB_L.mat
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/sheath/sheath_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Materials/waterSpray01.mat
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_011_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Textures/wristRoll_tex/wristRoll_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole4/004_026_hole4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/cortexScrew.mat
+- Assets/Bundles/004_DistalRadius/models/arteryRadialA004_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/fiveStarLong/004_023_fiveStarLong_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_025_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_009_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/depthGauge/004_024_depthGauge_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_009_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/cortexScrew/cortexScrew_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_029_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew2/004_030_lockScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/hole_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/quickCouplingHandle_u.controller
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_022_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/TextAnimation/syingeBulblrrigation/waterSpray_nrml_02.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole5/004_027_hole5_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole3/004_027_hole3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/kWire/004_023_kWire_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew4/004_028_lockScrew4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_028_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/bumpWrist/004_005_bumpWrist_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/drillBit2/004_020_drillBit2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole3/004_024_hole3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_009_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/04/04_04_lat_01.png
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/TransitOut.anim
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_007_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_023_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/TransitIn.anim
+- Assets/Bundles/004_DistalRadius/models/lockScrew_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/drillMedical_u_v02.fbx
+- Assets/Bundles/004_DistalRadius/Textures/syringeBulbIrrigation_amboc_01.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole6/004_030_hole6_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew4/004_030_lockScrew4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/XRayNerveRad.mat
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0001.png
+- Assets/Bundles/004_DistalRadius/Images/Xrays/07/04_07_AP_01.png
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/S22_TransitIn.anim
+- Assets/Bundles/004_DistalRadius/Animations/rArmCutGeo/TransitIn.anim
+- Assets/Bundles/004_DistalRadius/models/markerSharpie_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole3/004_028_hole3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/distalPlate_tex/disPlate_dif_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_019_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/boneTransA004_u_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole2/004_027_hole2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/PQstitch/004_029_PQstitch_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/medicalTableWrist.controller
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_018_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animators/rArmLower.controller
+- Assets/Bundles/004_DistalRadius/Animators/rArmCut.controller
+- Assets/Bundles/004_DistalRadius/Materials/scalpel.mat
+- Assets/Bundles/004_DistalRadius/Animations/004_015_curette_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/kWire/004_024_kWire_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/dermalCut/dermalCut_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Materials/blueBlanket.mat
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0008.png
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew1/004_028_lockScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/cortexScrew/cortexScrew_metalM_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/interior/armInterior_temp_dif_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/lockingScrew/lockScrew_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Images/Xrays/03/04_03_lateral_01.png
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew1/004_029_cortexScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0001.mat
+- Assets/Bundles/004_DistalRadius/Materials/medTable.mat
+- Assets/Bundles/004_DistalRadius/models/cortexScrew_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_016_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/freerElevator/004_014_freerElevator_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_027_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_030_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_008_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/freeElevator_u.controller
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_027_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/07/04_07_extra_01.png
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0003.mat
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_024_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animators/curette.controller
+- Assets/Bundles/004_DistalRadius/Animations/004_001_medTableWristS_v01.fbx
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0006.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole4/004_025_hole4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole4/004_030_hole4_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/drillGuide_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/06B/04_06B_lat_01.png
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_021_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/004_005_scapel_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew3/004_027_cortexScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/lightShapes 1/multi_light_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/freerElevator_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_024_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_010_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_026_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Materials/medicalCloth.mat
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/dermalCut/dermalCut_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew4/004_025_lockScrew4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/04/04_04_AP_01.png
+- Assets/Bundles/004_DistalRadius/Animators/fiveStarLong_u.controller
+- Assets/Bundles/004_DistalRadius/TextAnimation/syingeBulblrrigation/waterSpray_nrml_01.png
+- Assets/Bundles/004_DistalRadius/Textures/distalPlate_tex/disPlate_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew1/004_023_cortexScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/fiveStarLong_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_021_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/main.prefab
+- Assets/Bundles/004_DistalRadius/Textures/scalpel_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_024_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_029_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew3/004_028_lockScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/cortexScrew_u_01.controller
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0005.png
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0007.png
+- Assets/Bundles/004_DistalRadius/Animations/bumpWrist/004_004_bumpWrist_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew3/004_025_lockScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/curette_amboc_v01.png
+- Assets/Bundles/004_DistalRadius/Materials/armUncut_Trans.mat
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_023_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/curette_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew2/004_025_lockScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_007_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_030_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_026_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/drillGuide.controller
+- Assets/Bundles/004_DistalRadius/Animations/sScapel/004_008_scalpelS_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_026_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/sScapel/004_006_scalpelS_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/dermalCut/dermalCut_dif_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/dermalCut/dermalCut_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/interior/armInterior_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0005.mat
+- Assets/Bundles/004_DistalRadius/Materials/kWire.mat
+- Assets/Bundles/004_DistalRadius/Textures/scalpel_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0002.mat
+- Assets/Bundles/004_DistalRadius/Animations/bumpWrist/004_001_bumpWrist_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/004_004_markerSharpie_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew2/004_025_cortexScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/drillBit2/004_024_drillBit2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/rArmUncut_u.controller
+- Assets/Bundles/004_DistalRadius/Animations/kWire/004_022_kWire_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/freerElevator/004_016_freerElevator_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_012_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/004_CameraAnimation_v08.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/01B/004_01B_AP_01.png
+- Assets/Bundles/004_DistalRadius/Animations/kWire/004_025_kWire_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole4/004_024_hole4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_018_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_025_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/medicalTable/medicalCloth_nrml_v01.tif
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_017_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/camera.controller
+- Assets/Bundles/004_DistalRadius/Textures/rArmUncut/rArmUncut_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_030_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/distalPlate_tex/disPlate_metalM_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole5/004_029_hole5_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/lightShapes 1/ring_light_v01.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/02/04_02_lat_02.png
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew1/004_028_cortexScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_011_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew2/004_027_lockScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_027_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/quickCouplingHandle/004_023_quickCouplingHandle_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole5/004_030_hole5_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/quickCouplingHandle/004_022_quickCouplingHandle_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmUncut/004_004_rArmUncut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Materials/waterSpray03.mat
+- Assets/Bundles/004_DistalRadius/Materials/XRayBone.mat
+- Assets/Bundles/004_DistalRadius/models/rArmUncut_u_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_021_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/01/004_01_Lateral_01.png
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0003.png
+- Assets/Bundles/004_DistalRadius/Animators/rArmUncut_Decal.controller
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_021_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/subDermal/subDermal_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/curette_metalM_v01.png
+- Assets/Bundles/004_DistalRadius/models/lightShapes 1/multiA_L.mat
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/interior/armInterior_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew1/004_030_lockScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/distalPlate.mat
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew1/004_024_lockScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmUncut/S3TransitIn.anim
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole4/004_023_hole4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_006_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew2/004_026_lockScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole5/004_026_hole5_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/distalRadiusPlate_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/syringeBulblrrigation01.mat
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_025_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Textures/depthGauge_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole6/004_026_hole6_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/kWire/004_020_kWire_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/quickCouplingHandle_u_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/sScapel/004_005_scalpelS_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/subDermal/subDermal_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew3/004_030_cortexScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/07/04_07_lat_01.png
+- Assets/Bundles/004_DistalRadius/Animators/depthGauge_u.controller
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole6/004_024_hole6_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmCut/bone_blueTrans.mat
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole3/004_026_hole3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew1/004_026_cortexScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_015_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Timeline_test00.playable
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew4/004_029_lockScrew4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_028_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/bumpWrist.controller
+- Assets/Bundles/004_DistalRadius/Materials/ArmCut/bone_trans.mat
+- Assets/Bundles/004_DistalRadius/Animations/drillMedical/004_024_drillMedical_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/wristRoll_tex/wristRoll_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Materials/ArmCut/interior.mat
+- Assets/Bundles/004_DistalRadius/models/drillBit2_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/wristRoll_tex/wristRoll_dif_v01.png
+- Assets/Bundles/004_DistalRadius/Materials/lockingScrew.mat
+- Assets/Bundles/004_DistalRadius/Animations/004_030_stitchesOuter_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0008.mat
+- Assets/Bundles/004_DistalRadius/Materials/syringeBulblrrigation02.mat
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole6/004_028_hole6_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_017_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole5/004_028_hole5_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmCut/transparent.mat
+- Assets/Bundles/004_DistalRadius/Textures/medicalTable/wirstMedCloth_dif_01.png
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_019_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew1/004_024_cortexScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/depthGauge_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/freerElevator_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_029_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_026_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_030_softWeitRetractorR_v02.fbx
+- Assets/Bundles/004_DistalRadius/models/scalpelS_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/bumpWrist_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew3/004_030_lockScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/depthGauge_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/powerDrill_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_018_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Rendering/VolumeProfileMedium.asset
+- Assets/Bundles/004_DistalRadius/Animators/lockScrew_u.controller
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole6/004_027_hole6_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_020_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0009.mat
+- Assets/Bundles/004_DistalRadius/Animations/bulbSyringe/004_016_bulbSyringe_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/bulbSyringe/waterFlow.anim
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/interior/armInterior_dif_v01.png
+- Assets/Bundles/004_DistalRadius/models/medTableWristS_u_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/004_013_sennRetractor_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole3/004_030_hole3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmCut/dermalCut.mat
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_023_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_017_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmCut/dermalCut_trans.mat
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew3/004_029_cortexScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0000.png
+- Assets/Bundles/004_DistalRadius/Animations/004_020_drillGuide_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/curette_nrm_v01.tif
+- Assets/Bundles/004_DistalRadius/Animators/hole_u.controller
+- Assets/Bundles/004_DistalRadius/Images/Xrays/07/04_07_oblique_02.png
+- Assets/Bundles/004_DistalRadius/Animators/drillBit2.controller
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew3/004_025_cortexScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/depthGauge.mat
+- Assets/Bundles/004_DistalRadius/Materials/freeElevator.mat
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_013_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animators/distalRadiusPlate_u.controller
+- Assets/Bundles/004_DistalRadius/models/bulbSyringe_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/boneTransA004/004_027_boneTransA004_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_027_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/kWire_u.controller
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_020_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0009.png
+- Assets/Bundles/004_DistalRadius/models/lightShapes 1/conv_l.mat
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_014_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animators/softWeitRetractor.controller
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0000.mat
+- Assets/Bundles/004_DistalRadius/models/lightShapes 1/convex_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew3/004_023_lockScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/curette.mat
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole5/004_025_hole5_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole6/004_023_hole6_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/bumpWrist.mat
+- Assets/Bundles/004_DistalRadius/Images/Xrays/03/04_03_AP_01.png
+- Assets/Bundles/004_DistalRadius/models/nerveMedianA004_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/powerDrill.mat
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole2/004_023_hole2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/XRayNerveMedian.mat
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole5/004_024_hole5_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_008_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole6/004_029_hole6_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/kWire/004_026_kWire_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/couplingHandle.mat
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew3/004_028_cortexScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole2/004_024_hole2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole2/004_026_hole2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_013_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/syringeBulbIrrigation_dif_01.png
+- Assets/Bundles/004_DistalRadius/Animators/stichesOuter.controller
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_022_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/PQstitch/004_030_PQstitch_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/boneTransA004/004_018_boneTransA004_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmCut/subDermal.mat
+- Assets/Bundles/004_DistalRadius/Animations/quickCouplingHandle/004_025_quickCouplingHandle_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew3/004_026_lockScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmUncut/004_003_rArmUncut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Materials/medicalTable.mat
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_025_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/004_cameraAnimation_v07.fbx
+- Assets/Bundles/004_DistalRadius/Rendering/VolumeProfileLow.asset
+- Assets/Bundles/004_DistalRadius/Animators/sennRetractor.controller
+- Assets/Bundles/004_DistalRadius/Animations/rArmUncut/rArmDecal.anim
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_012_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/rArmUncut/rArmUncut_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/models/tendonFCRA004_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/bulbSyringe.controller
+- Assets/Bundles/004_DistalRadius/Textures/couplingHandle/coHandle_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/rArmUncut/rArmUncut_dif_v01.png
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0002.png
+- Assets/Bundles/004_DistalRadius/Textures/depthGauge_metalM_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_030_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_014_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew3/004_027_lockScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmUncut/004_002_rArmUncut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Textures/cortexScrew/cortexScrew_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole2/004_029_hole2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/markerSharpie.controller
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew3/004_026_cortexScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_008_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_014_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_030_softWeitRetractorL_v02.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/06B/04_06B_AP_01.png
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew1/004_029_lockScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/wristRoll/004_017_wristRoll_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/drillMedical/004_023_drillMedical_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew1/004_027_lockScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew4/004_026_lockScrew4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew3/004_024_cortexScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_025_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/CameraAniV08.controller
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole2/004_025_hole2_v01.fbx
+- Assets/Bundles/004_DistalRadius/TextAnimation/syingeBulblrrigation/waterSpray_nrml_03.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole4/004_028_hole4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/wristRoll/004_018_wristRoll_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole3/004_029_hole3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/transitInWithTransBone.anim
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_028_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_022_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/freerElevator/004_015_freerElevator_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/rArmCut_u_v03.fbx
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew1/004_022_cortexScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole2/004_030_hole2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/lockingScrew/lockScrew_metalM_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/rArmUncut/rArmUncut_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/main_temp.prefab
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_010_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/kWire/004_021_kWire_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/wristRoll_tex/wristRoll_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/freerElevator_metalM_v01.png
+- Assets/Bundles/004_DistalRadius/models/rArmUncut_u_v02 (1).fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/05/04_05_lat_01.png
+- Assets/Bundles/004_DistalRadius/Animations/freerElevator/004_010_freerElevator_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_016_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Rendering/VolumeProfileHigh.asset
+- Assets/Bundles/004_DistalRadius/Animations/fiveStarLong/004_024_fiveStarLong_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/medicalTable/medicalCloth_amboc_01.tif
+- Assets/Bundles/004_DistalRadius/Animations/drillBit2/004_023_drillBit2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/kWire/004_018_kWire_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/S00_DefaultMap.anim
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0004.mat
+- Assets/Bundles/004_DistalRadius/TextAnimation/armDecal/004_decalLine_0004.png
+- Assets/Bundles/004_DistalRadius/Textures/scalpel_amboc_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew2/004_023_cortexScrew2_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/kWire/004_019_kWire_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/PQStitch.controller
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_016_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/waterSpray04.mat
+- Assets/Bundles/004_DistalRadius/models/drillMedical_u_v02 (1).fbx
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_020_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/kWire_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_015_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/XRayTendon.mat
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_029_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/interior/armInterior_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Materials/ArmDecal/004_decalLine_0006.mat
+- Assets/Bundles/004_DistalRadius/Animations/bumpWrist/004_002_bumpWrist_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/stitchesOuter_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/PQstitch_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_030_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/curette_spec_v01.png
+- Assets/Bundles/004_DistalRadius/models/wristRoll_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/004_cameraAnimation_v07.controller
+- Assets/Bundles/004_DistalRadius/Animators/boneTransA004.controller
+- Assets/Bundles/004_DistalRadius/models/sennRetractor_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmUncut/S3TransitOut.anim
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew1/004_030_cortexScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorL/004_028_softWeitRetractorL_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_013_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/armUncut.mat
+- Assets/Bundles/004_DistalRadius/Timeline.playable
+- Assets/Bundles/004_DistalRadius/models/freerElevator_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/fiveStarLong/004_025_fiveStarLong_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole6/004_025_hole6_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/freerElevator_amboc_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/subDermal/subDermal_spec_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/sheath/sheath_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/sheath/sheath_dif_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/sScapel/004_014_scalpelS_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/quickCouplingHandle_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/ArmCut/subDermal/subDermal_dif_v01.png
+- Assets/Bundles/004_DistalRadius/Textures/ankleBump_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/boneTransA004/004_019_boneTransA004_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/rArmCutGeo.controller
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole5/004_023_hole5_v01.fbx
+- Assets/Bundles/004_DistalRadius/TextAnimation/syingeBulblrrigation/waterSpray_nrml_04.png
+- Assets/Bundles/004_DistalRadius/models/roomOperationA_u_v02 1.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew3/004_029_lockScrew3_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/rArmCut_v02/004_020_rArmCut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/004_010_sennRetractor_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/scalpelS.controller
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole1/004_024_hole1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/couplingHandle/coHandle_nrml_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/fiveStarLong/004_022_fiveStarLong_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/distalRadiusPlate/004_026_distalRadiusPlate_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew1/004_025_lockScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/cortexScrew1/004_027_cortexScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_028_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animators/wristRoll.controller
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_011_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole4/004_027_hole4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/05/04_05_AP_01.png
+- Assets/Bundles/004_DistalRadius/Animations/holes_1-6/hole4/004_029_hole4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/bumpWrist/004_003_bumpWrist_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew4/004_027_lockScrew4_v01.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/02/04_02_AP_01.png
+- Assets/Bundles/004_DistalRadius/Animations/bumpWrist/004_006_bumpWrist_v01.fbx
+- Assets/Bundles/004_DistalRadius/Images/Xrays/01B/004_01B_Lateral_02.png
+- Assets/Bundles/004_DistalRadius/models/roundWeitRetract_u_v01.fbx
+- Assets/Bundles/004_DistalRadius/Materials/wristRoll.mat
+- Assets/Bundles/004_DistalRadius/Animations/quickCouplingHandle/004_024_quickCouplingHandle_v01.fbx
+- Assets/Bundles/004_DistalRadius/models/markerSharpie_u_v02.fbx
+- Assets/Bundles/004_DistalRadius/Animations/softWeitRetractorR/004_020_softWeitRetractorR_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/sScapel/004_011_scalpelS_v01.fbx
+- Assets/Bundles/004_DistalRadius/Animations/lockScrew1/004_026_lockScrew1_v01.fbx
+- Assets/Bundles/004_DistalRadius/Textures/lockingScrew/lockScrew_ambocB_v01.png
+- Assets/Bundles/004_DistalRadius/Animations/rArmUncut/004_001_rArmUncut_v02.fbx
+- Assets/Bundles/004_DistalRadius/Materials/ArmCut/interior_red.mat
+Dependencies: []

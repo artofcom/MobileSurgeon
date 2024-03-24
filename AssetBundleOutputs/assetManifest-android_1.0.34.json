@@ -1,0 +1,31 @@
+{
+    "header": {
+        "date": "5:13 PM 11/29/2023"
+    },
+    "bundles": [
+        {
+            "name": "001_anklesurgery",
+            "path": "assetbundles/android/001_anklesurgery/f85bb70039170e09acd7bd4498d2c70f",
+            "hash": "f85bb70039170e09acd7bd4498d2c70f",
+            "fileSize": 43400592
+        },
+        {
+            "name": "002_brainsurgery",
+            "path": "assetbundles/android/002_brainsurgery/d44aa2465fc50e574e0c1a7fcd8441bf",
+            "hash": "d44aa2465fc50e574e0c1a7fcd8441bf",
+            "fileSize": 3548
+        },
+        {
+            "name": "003_eyesurgery",
+            "path": "assetbundles/android/003_eyesurgery/7875287d440a1b02c209d585f318d611",
+            "hash": "7875287d440a1b02c209d585f318d611",
+            "fileSize": 429678
+        },
+        {
+            "name": "004_distalradius",
+            "path": "assetbundles/android/004_distalradius/0d167e80c095a876fb05c265fb884b75",
+            "hash": "0d167e80c095a876fb05c265fb884b75",
+            "fileSize": 7112209
+        }
+    ]
+}

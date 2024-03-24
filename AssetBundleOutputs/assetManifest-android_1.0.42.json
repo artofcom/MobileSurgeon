@@ -1,0 +1,37 @@
+{
+    "header": {
+        "date": "5:09 PM 2/26/2024"
+    },
+    "bundles": [
+        {
+            "name": "000_controller",
+            "path": "assetbundles/android/000_controller/353b68685bba3ce67c3a927985a9d0b2",
+            "hash": "353b68685bba3ce67c3a927985a9d0b2",
+            "fileSize": 7787
+        },
+        {
+            "name": "001_anklesurgery",
+            "path": "assetbundles/android/001_anklesurgery/791ecacf4a3ed66ce82dc3f70f5a43bb",
+            "hash": "791ecacf4a3ed66ce82dc3f70f5a43bb",
+            "fileSize": 43390894
+        },
+        {
+            "name": "003_medialmalleolus",
+            "path": "assetbundles/android/003_medialmalleolus/90c5c71fd51d7d44797ec0aaebb8a344",
+            "hash": "90c5c71fd51d7d44797ec0aaebb8a344",
+            "fileSize": 64575272
+        },
+        {
+            "name": "004_distalradius",
+            "path": "assetbundles/android/004_distalradius/77e711d076ece1af5d6711154adeb57d",
+            "hash": "77e711d076ece1af5d6711154adeb57d",
+            "fileSize": 42985719
+        },
+        {
+            "name": "999_template",
+            "path": "assetbundles/android/999_template/217b97cd0f0ae6714349777970d79866",
+            "hash": "217b97cd0f0ae6714349777970d79866",
+            "fileSize": 9034
+        }
+    ]
+}

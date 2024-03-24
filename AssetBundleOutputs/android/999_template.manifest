@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 2101140503
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 217b97cd0f0ae6714349777970d79866
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f1cf0d7244ee74f977a9e52a29bf9475
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 217b97cd0f0ae6714349777970d79866
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8cd126d07421a4c24a2e020a7fbd3f95, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e399518120bbd247b6efbaf3fe24356, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 446a62da9c942e54581adf2b9753e874, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5fc762419897e401493d6d89ec0794de, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0f8b5b989a1148ddb5cf9214450225e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 320
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Tantawowa.TimelineEvents.TimelineEventBehaviour
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.TemporalAA/Settings
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.MarkerList
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineAsset/EditorSettings
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineClip
+Assets:
+- Assets/Bundles/999_Template/main.prefab
+- Assets/Bundles/999_Template/Data/main.json
+- Assets/Bundles/999_Template/Timeline.playable
+Dependencies: []

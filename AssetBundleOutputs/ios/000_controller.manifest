@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1003224313
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 79696dca6aa872385930d63a75c70977
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 79696dca6aa872385930d63a75c70977
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Bundles/000_Controller/003_BiMalleolus.json
+- Assets/Bundles/000_Controller/001_LM_PLP_PLPAB_PLPA.json
+- Assets/Bundles/000_Controller/004_DistalRadius.json
+- Assets/Bundles/000_Controller/001_LM_LP.json
+- Assets/Bundles/000_Controller/001_AnkleSurgery.json
+- Assets/Bundles/000_Controller/001_LM_PLP_PLPAB_PLPB.json
+- Assets/Bundles/000_Controller/510_TriMalleolus.json
+- Assets/Bundles/000_Controller/003_MedialMalleolus.json
+- Assets/Bundles/000_Controller/600_AnimBranchDemoPathB.json
+- Assets/Bundles/000_Controller/001_LateralMalleolus.json
+- Assets/Bundles/000_Controller/600_AnimBranchDemoPathA.json
+- Assets/Bundles/000_Controller/001_LM_PLP_LS.json
+Dependencies: []

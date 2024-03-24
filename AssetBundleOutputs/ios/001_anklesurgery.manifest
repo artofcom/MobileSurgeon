@@ -1,0 +1,493 @@
+ManifestFileVersion: 0
+CRC: 1441225680
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 26cf4a187366ad64eca57c364f353692
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3650a1c0df304362326f3cbf32ff9874
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 26cf4a187366ad64eca57c364f353692
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af945b1be93b54989857326ad1b7cab5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dae02553d86ef4a50b7b97d69968dab9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d21dcc2386d650c4597f3633c75a1f98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8cd126d07421a4c24a2e020a7fbd3f95, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f0b09b94820cb47d2a2a6ad4e1b3c965, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 41fd51524fdde48e4a0648c75a5be21b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 50834f5d362ef40e185eb17c8cbab2a3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 88ddf5508650c46d59ed4cb54c1d987c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e399518120bbd247b6efbaf3fe24356, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8919fbc03049449ba89447666d9fafc6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 446a62da9c942e54581adf2b9753e874, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ec638260e5f36dd498e40a036f7c34f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 269271dbba0a14fa79f0a2a31d010c4a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5fc762419897e401493d6d89ec0794de, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0f8b5b989a1148ddb5cf9214450225e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 215
+  Script: {instanceID: 0}
+- Class: 220
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 320
+  Script: {instanceID: 0}
+- Class: 1183024399
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Script.App
+  ClassName: PlayerablePath
+- AssemblyName: Script.Core
+  ClassName: AnimPathDetailInfo
+- AssemblyName: Script.Core
+  ClassName: AnimPathInfo
+- AssemblyName: Script.Core
+  ClassName: PreviewAnimInfo
+- AssemblyName: Script.Core
+  ClassName: ShotInfo
+- AssemblyName: Script.Core
+  ClassName: Tantawowa.TimelineEvents.TimelineEventBehaviour
+- AssemblyName: Script.Core
+  ClassName: TransparencyTargetInfo
+- AssemblyName: Script.Core
+  ClassName: XRayData
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.BoolParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ClampedIntParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.ColorParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.MinFloatParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.TextureParameter
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.Vector2Parameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.DepthOfFieldModeParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.DownscaleParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.HDRACESPresetParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.TemporalAA/Settings
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.TonemappingModeParameter
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.MarkerList
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineAsset/EditorSettings
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineClip
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Bundles/001_AnkleSurgery/Textures/drillGuide_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/periostealElevator_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/legRLDecal_02.mat
+- Assets/Bundles/001_AnkleSurgery/models/medicalTableAnkleSurgery_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_drillMedical_v01.controller
+- Assets/Bundles/001_AnkleSurgery/Animations/001_002_markerSharpie_anim_01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_legRLowerDecalLine.controller
+- Assets/Bundles/001_AnkleSurgery/models/periostealElevator_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/legInt_dif_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/legOut_spec_v02.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_016_forcepsBoneReduction_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_010_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/bender_metalM_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/depthGauge_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_011_drillMedical_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/tourniquet_spec_v01.tif
+- Assets/Bundles/001_AnkleSurgery/models/screwdriver_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_011_drillGuide_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/legRLDecal_09.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/legMetal_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_001_bumpAnkle_anim_01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_markerSharpie_u_v01 1.controller
+- Assets/Bundles/001_AnkleSurgery/models/markerSharpie_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/models/rongeur_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_forcepsBoneReduction_v01.controller
+- Assets/Bundles/001_AnkleSurgery/Animations/001_012_depthGauge_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/trayWater_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/timeline_PLPAB.playable
+- Assets/Bundles/001_AnkleSurgery/models/legRLowerDecalLine_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/syringeBulbIrrigation_amboc_01.png
+- Assets/Bundles/001_AnkleSurgery/timeline_LP_default.playable
+- Assets/Bundles/001_AnkleSurgery/Animators/001_bumpAnkle.controller
+- Assets/Bundles/001_AnkleSurgery/Animations/001_013_drillMedical_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_syringeBulbIrrigation_v01.controller
+- Assets/Bundles/001_AnkleSurgery/Animations/001_007_curette_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_005_plateScrew_ap_v01.png
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_005_plateScrew_lat_v01.png
+- Assets/Bundles/001_AnkleSurgery/models/lightShapes/multiA_L.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/depthGauge_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/xRay_Bone.mat
+- Assets/Bundles/001_AnkleSurgery/models/lightShapes/conv_l.mat
+- Assets/Bundles/001_AnkleSurgery/Animations/001_007_rongeur_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_016_bumpAnkle_anim_01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_015_forcepsBoneReduction_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/legRLDecal_06.mat
+- Assets/Bundles/001_AnkleSurgery/Animators/001_screwdriver_v01.controller
+- Assets/Bundles/001_AnkleSurgery/models/New Material.mat
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_002_clamped_mort_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_018_stitchesOuter_v05.fbx
+- Assets/Bundles/001_AnkleSurgery/models/roomOperationA_u_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/forceps.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/tourniquet.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/legRLDecal_04.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/periostealElevator.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/syringeBulbIrrigation02.mat
+- Assets/Bundles/001_AnkleSurgery/Animations/001_017_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_001_fractures_lat_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/curette.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/rongeur_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/medTabTop.mat
+- Assets/Bundles/001_AnkleSurgery/Animations/001_005_periostealElevator_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/test_sphere_pingpong.anim
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/legRLowerDecalLine/decalLine_09.png
+- Assets/Bundles/001_AnkleSurgery/Textures/trayWater_metalM_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/forceps_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/legRLowerDecalLine/decalLine_07.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_007_freerElevator_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/legRLowerDecalLine/decalLine_04.png
+- Assets/Bundles/001_AnkleSurgery/Animators/001_xRayBone.controller
+- Assets/Bundles/001_AnkleSurgery/models/depthGauge_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/syringeBulblrrigation/waterSpray_nrml_01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/legMetal.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/scalpel_metalM_v01.png
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/legRLowerDecalLine/decalLine_08.png
+- Assets/Bundles/001_AnkleSurgery/Animators/001_legRLower_u.controller
+- Assets/Bundles/001_AnkleSurgery/Animators/Test_Sphere.controller
+- Assets/Bundles/001_AnkleSurgery/Materials/waterSpray01.mat
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/legRLowerDecalLine/decalLine_02.png
+- Assets/Bundles/001_AnkleSurgery/Materials/powerDrill.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/xRay_tourniquet.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/bender_spec_v01.tif
+- Assets/Bundles/001_AnkleSurgery/Animations/001_006_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_curette_v01.controller
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/syringeBulblrrigation/waterSpray_nrml_02.png
+- Assets/Bundles/001_AnkleSurgery/models/powerDrill_u_v06.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_005_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_lineGrphicB_FadeOut.anim
+- Assets/Bundles/001_AnkleSurgery/Animations/001_016_legRLower_v04.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/legRLDecal_08.mat
+- Assets/Bundles/001_AnkleSurgery/Animations/001_006_freerElevator_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/legRLowerDecalLine/decalLine_06.png
+- Assets/Bundles/001_AnkleSurgery/timeline_LS.playable
+- Assets/Bundles/001_AnkleSurgery/Animations/001_016_drillGuide_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_006_final_ap_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/rongeur_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/forceps_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/freerElevator_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animators/001_bumphipTriangular_u_v01 1.controller
+- Assets/Bundles/001_AnkleSurgery/models/scalpel_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/screwdriver_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_002_clamped_ap_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/trayWater.mat
+- Assets/Bundles/001_AnkleSurgery/Animators/001_xRayDressing.controller
+- Assets/Bundles/001_AnkleSurgery/Textures/ankleBump_dif_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/legRLDecal_03.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/tourniquet_dif_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animators/001_periostealElevator_v01.controller
+- Assets/Bundles/001_AnkleSurgery/Textures/scalpel_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_007_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/curette_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/trayWater_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_018_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_004_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/models/bumpAnkle_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/drillGuide_dif_v01.png
+- Assets/Bundles/001_AnkleSurgery/models/forcepsBoneReduction_u_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_xRayDressing.anim
+- Assets/Bundles/001_AnkleSurgery/Animations/001_spray_water_texture.anim
+- Assets/Bundles/001_AnkleSurgery/Animations/001_lineGrphicA_FadeOut.anim
+- Assets/Bundles/001_AnkleSurgery/Materials/legRLDecal_07.mat
+- Assets/Bundles/001_AnkleSurgery/Animators/001_rongeur_v01.controller
+- Assets/Bundles/001_AnkleSurgery/models/lineGraphicA_u_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/models/bumphipTriangular_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/periostealElevator_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/trayWater_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_014_benderR_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/timeline_PLPB.playable
+- Assets/Bundles/001_AnkleSurgery/Animations/001_018_stitchesInner_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_stitchesInner.controller
+- Assets/Bundles/001_AnkleSurgery/Materials/legRLDecal_01.mat
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/legRLowerDecalLine/decalLine_05.png
+- Assets/Bundles/001_AnkleSurgery/Textures/bender_dif_v01.tif
+- Assets/Bundles/001_AnkleSurgery/Animations/001_legRLowerNerveA.anim
+- Assets/Bundles/001_AnkleSurgery/Materials/scalpel.mat
+- Assets/Bundles/001_AnkleSurgery/models/screwDriver_u_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/depthGauge_metalM_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_017_trayWater_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/leg_Out_Closed.mat
+- Assets/Bundles/001_AnkleSurgery/models/currette_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_005_plateScrew_mortise_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/freerElevator_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/models/lineGraphicB_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_008_forcepsBoneReduction_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/syringeBulbIrrigation01.mat
+- Assets/Bundles/001_AnkleSurgery/models/freerElevator_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/legRLowerDecalLine/decalLine_03.png
+- Assets/Bundles/001_AnkleSurgery/Materials/waterSpray03.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/bender_amboc_v01.tif
+- Assets/Bundles/001_AnkleSurgery/Materials/leg_Out.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/ankleBump.mat
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_001_fractures_mort_v01.png
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_004_plate_ap_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/freeElevator.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/periostealElevator_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/periostealElevator_maskM_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/rongeur_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_015_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/medicalTable.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/depthGauge_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/curette_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/tourniquet_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/leg_Internal.mat
+- Assets/Bundles/001_AnkleSurgery/Animations/001_014_forcepsBoneReduction_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_009_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/rongeur.mat
+- Assets/Bundles/001_AnkleSurgery/Animations/001_017_syringeBulbIrrigation_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_legRLowerNerveA.controller
+- Assets/Bundles/001_AnkleSurgery/Textures/medicalCloth_nrml_v01.tif
+- Assets/Bundles/001_AnkleSurgery/Animations/001_014_benderL_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_004_plate_mortise_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/bender.mat
+- Assets/Bundles/001_AnkleSurgery/main.prefab
+- Assets/Bundles/001_AnkleSurgery/Materials/mask.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/screwdriver_dif_v04.png
+- Assets/Bundles/001_AnkleSurgery/Textures/white.png
+- Assets/Bundles/001_AnkleSurgery/Textures/forceps_metalM_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/curette_metalM_v01.png
+- Assets/Bundles/001_AnkleSurgery/models/lightShapes/convex_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_012_drillMedical_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/depthGauge.mat
+- Assets/Bundles/001_AnkleSurgery/Animations/001_003_scalpel_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/bender_nrml_v01.tif
+- Assets/Bundles/001_AnkleSurgery/models/lightShapes/ring_light_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/main_preBiMal.prefab
+- Assets/Bundles/001_AnkleSurgery/Textures/forceps_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/test.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/leg_muscleStealth.mat
+- Assets/Bundles/001_AnkleSurgery/Rendering/VolumeProfileHigh.asset
+- Assets/Bundles/001_AnkleSurgery/Materials/waterSpray02.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/blueBlanket.mat
+- Assets/Bundles/001_AnkleSurgery/Animations/001_legRLowerDecalLine.anim
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/legRLowerDecalLine/decalLine_01.png
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/syringeBulblrrigation/waterSpray_nrml_03.png
+- Assets/Bundles/001_AnkleSurgery/Materials/New Material.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/curette_nrm_v01.tif
+- Assets/Bundles/001_AnkleSurgery/Animations/001_011_lineGraphicB_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/stitchOuter.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/xRayShader.mat
+- Assets/Bundles/001_AnkleSurgery/Animations/001_008_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_depthGauge_v01.controller
+- Assets/Bundles/001_AnkleSurgery/TexAnimation/syringeBulblrrigation/waterSpray_nrml_04.png
+- Assets/Bundles/001_AnkleSurgery/models/legRLowerClosed_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/syringeBulbIrrigation_dif_01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_015_drillMedical_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_001_fractures_ap_v01.png
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_006_final_mortise_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/waterSpray04.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/legOut_nrml_v01.tif
+- Assets/Bundles/001_AnkleSurgery/Rendering/VolumeProfileLow.asset
+- Assets/Bundles/001_AnkleSurgery/models/stitchesInner_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/trayWater_dif_v01.png
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_003_clamped_lat_v01.png
+- Assets/Bundles/001_AnkleSurgery/Camera/001_camera_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_018_stitchesSheath_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/legInt_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/lineGraphic.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/medicalCloth_amboc_01.tif
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_006_final_lat_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/xRay_BumpHip.mat
+- Assets/Bundles/001_AnkleSurgery/Animators/001_trayWater_v01.controller
+- Assets/Bundles/001_AnkleSurgery/Textures/powerDrill_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/drillGuide_metalM_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_016_depthGauge_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/legOut_dif_v03.png
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_004_plate_lateral_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_014_drillMedical_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Materials/screwDriver.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/screwdriver_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_xRayBone.anim
+- Assets/Bundles/001_AnkleSurgery/Materials/xRay_nerve.mat
+- Assets/Bundles/001_AnkleSurgery/Animators/001_freerElevator_v01.controller
+- Assets/Bundles/001_AnkleSurgery/models/legRLower_u_v07.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/powerDrill_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/Rendering/VolumeProfileMedium.asset
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_002_clamped_lat_v01.png
+- Assets/Bundles/001_AnkleSurgery/models/syringeBulbIrrigation_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/models/drillGuide_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/scalpel_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/timeline_PLPA.playable
+- Assets/Bundles/001_AnkleSurgery/models/stitchesOuter_u_v04.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/legMetal_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/drillGuide_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/timeline_PLP.playable
+- Assets/Bundles/001_AnkleSurgery/models/stitchesSheath_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/freerElevator_metalM_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/medicalCloth_dif_01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/freerElevator_spec_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/legMetal_spec_02.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_013_screwdriver_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_014_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_benderL_v01.controller
+- Assets/Bundles/001_AnkleSurgery/Animators/001_stitchesOuter.controller
+- Assets/Bundles/001_AnkleSurgery/Textures/ankleBump_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/models/lightShapes/multi_light_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/models/lightShapes/multiB_L.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/drillGuide.mat
+- Assets/Bundles/001_AnkleSurgery/Materials/waterTray.mat
+- Assets/Bundles/001_AnkleSurgery/models/bender_u_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_lineGraphicA.controller
+- Assets/Bundles/001_AnkleSurgery/Animations/001_013_forcepsBoneReduction_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_005_scalpel_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/legOut_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/models/legRLowerNerveA_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Camera/C_camera.controller
+- Assets/Bundles/001_AnkleSurgery/Animations/001_011_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_scalpel.controller
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_003_clamped_ap_v01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/legRLDecal_05.mat
+- Assets/Bundles/001_AnkleSurgery/Textures/tourniquet_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animations/001_009_lineGraphicA_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_016_drillMedical_v02.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_drillGuide_v01.controller
+- Assets/Bundles/001_AnkleSurgery/Textures/legMetal_metalM_01.png
+- Assets/Bundles/001_AnkleSurgery/Materials/medicalCloth.mat
+- Assets/Bundles/001_AnkleSurgery/models/trayWater_u_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Animators/001_benderR_v01.controller
+- Assets/Bundles/001_AnkleSurgery/Animators/001_medicalTableAnkleSurgery_u_v01.controller
+- Assets/Bundles/001_AnkleSurgery/Animations/001_001_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/images/XRay/001_xrays_003_clamped_mort_v01.png
+- Assets/Bundles/001_AnkleSurgery/timeline_preBM.playable
+- Assets/Bundles/001_AnkleSurgery/Animations/001_003_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_002_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_004_scalpel_v01.fbx
+- Assets/Bundles/001_AnkleSurgery/Textures/legRLowerClosed_spec_v02.png
+- Assets/Bundles/001_AnkleSurgery/Animators/001_lineGraphicB.controller
+- Assets/Bundles/001_AnkleSurgery/Animations/001_012_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Animations/001_013_legRLower_v03.fbx
+- Assets/Bundles/001_AnkleSurgery/Shader/xRayShader.shadergraph
+- Assets/Bundles/001_AnkleSurgery/Textures/drillGuide_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/legRLowerClosed_dif_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/rongeur_metalM_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/legInt_nrml_v01.png
+- Assets/Bundles/001_AnkleSurgery/Textures/scalpel_amboc_v01.png
+- Assets/Bundles/001_AnkleSurgery/Animators/001_stitchesSheath_v01.controller
+Dependencies: []

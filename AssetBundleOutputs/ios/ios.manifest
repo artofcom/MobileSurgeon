@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3734669435
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: 000_controller
+      Dependencies: {}
+    Info_1:
+      Name: 001_anklesurgery
+      Dependencies: {}
+    Info_2:
+      Name: 003_medialmalleolus
+      Dependencies: {}
+    Info_3:
+      Name: 004_distalradius
+      Dependencies: {}
+    Info_4:
+      Name: 999_template
+      Dependencies: {}

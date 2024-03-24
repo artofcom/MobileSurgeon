@@ -1,0 +1,31 @@
+{
+    "header": {
+        "date": "8:29 PM 12/20/2023"
+    },
+    "bundles": [
+        {
+            "name": "001_anklesurgery",
+            "path": "assetbundles/ios/001_anklesurgery/3a1c1e8626e107c822d780edc9b66b84",
+            "hash": "3a1c1e8626e107c822d780edc9b66b84",
+            "fileSize": 39439812
+        },
+        {
+            "name": "002_brainsurgery",
+            "path": "assetbundles/ios/002_brainsurgery/0d9157671b9cc414f8a318afc4bd198b",
+            "hash": "0d9157671b9cc414f8a318afc4bd198b",
+            "fileSize": 3548
+        },
+        {
+            "name": "003_eyesurgery",
+            "path": "assetbundles/ios/003_eyesurgery/8bc43dda319ff068b4d1d2f86900e4af",
+            "hash": "8bc43dda319ff068b4d1d2f86900e4af",
+            "fileSize": 240558
+        },
+        {
+            "name": "004_distalradius",
+            "path": "assetbundles/ios/004_distalradius/0674e4f829c4c73be7775f094c787512",
+            "hash": "0674e4f829c4c73be7775f094c787512",
+            "fileSize": 39717935
+        }
+    ]
+}

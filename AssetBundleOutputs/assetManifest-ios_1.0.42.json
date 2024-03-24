@@ -1,0 +1,37 @@
+{
+    "header": {
+        "date": "4:53 PM 2/26/2024"
+    },
+    "bundles": [
+        {
+            "name": "000_controller",
+            "path": "assetbundles/ios/000_controller/05ed5cb107f795cdaf277c759af1131d",
+            "hash": "05ed5cb107f795cdaf277c759af1131d",
+            "fileSize": 7787
+        },
+        {
+            "name": "001_anklesurgery",
+            "path": "assetbundles/ios/001_anklesurgery/fbf58bffb9ab3a985e22af014e93610f",
+            "hash": "fbf58bffb9ab3a985e22af014e93610f",
+            "fileSize": 39431765
+        },
+        {
+            "name": "003_medialmalleolus",
+            "path": "assetbundles/ios/003_medialmalleolus/1951ce8250c9756ceb413cbd31eb6313",
+            "hash": "1951ce8250c9756ceb413cbd31eb6313",
+            "fileSize": 59711917
+        },
+        {
+            "name": "004_distalradius",
+            "path": "assetbundles/ios/004_distalradius/4042767cd6f3e19eed016411a4f649a0",
+            "hash": "4042767cd6f3e19eed016411a4f649a0",
+            "fileSize": 39897042
+        },
+        {
+            "name": "999_template",
+            "path": "assetbundles/ios/999_template/6834de9379d1cb87b2f86a7294bbee54",
+            "hash": "6834de9379d1cb87b2f86a7294bbee54",
+            "fileSize": 9034
+        }
+    ]
+}
