@@ -1,0 +1,5 @@
+{
+    "UseRemoteConfig": false,
+    "UseRemoteBundle": false,
+    "CDNProviderHeader": "https://storage.googleapis.com/bnvm_mobilesurgery_dev"
+}

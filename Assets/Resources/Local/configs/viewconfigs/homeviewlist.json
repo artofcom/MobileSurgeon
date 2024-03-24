@@ -1,0 +1,33 @@
+{
+    "CardList": [
+        {
+            "Type": "BIG",
+            "CPTCode": 25607,
+            "Tag": "Recommended.",
+            "IconPath": "Local/images/icons/Continue_S003_distalRadius_button_01",
+            "Desc": "Ankle Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "CPTCode": 27792,
+            "PhaseIndex": 0,
+            "IconPath": "Local/images/icons/footAnkle_Icon_01",
+            "Desc": "Ankle Surgery"
+        },
+        {
+            "Type": "SMALL",
+            "CPTCode": 25607,
+            "IconPath": "Local/images/icons/handWrist_icon_01",
+            "Desc": "Distal Radius"
+        },
+        {
+            "Type": "SMALL",
+            "CPTCode": 27766,
+            "IconPath": "Local/images/icons/footAnkle_Icon_01",
+            "Desc": "Lateral Malleolus"
+        }
+    ]
+
+
+
+}

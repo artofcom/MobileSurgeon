@@ -1,0 +1,15 @@
+{
+    "header": {
+        "date": "7:00 PM 10/4/2023"
+    },
+    "configs": [
+        {
+            "name": "homeviewlist",
+            "path": "Local/configs/viewconfigs"
+        },
+        {
+            "name": "surgerylist",
+            "path": "Local/configs/viewconfigs"
+        }
+    ]
+}
